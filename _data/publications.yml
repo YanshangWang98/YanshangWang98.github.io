@@ -66,7 +66,7 @@ main:
     
 
   - title: Association of cognitive frailty with subsequent all-cause mortality among middle-aged and older adults in 17 countries. 
-    authors: Ding, R., Ye, X., Chen, S., Wang, Y., ... & He, P.
+    authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
     conference_short: AJGP
     conference: The American Journal of Geriatric Psychiatry
     pdf: assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.pdf
@@ -75,7 +75,7 @@ main:
     notes: Published
 
   - title: Preferences and willingness to pay for herpes zoster vaccination among Chinese adults-A discrete choice experiment. 
-    authors: Ding, R., Ye, X., Chen, S., Wang, Y., ... & He, P.
+    authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
     conference_short: JMIR
     conference: JMIR Public Health and Surveillance
     pdf: assets/files/Xia_et_al_2024_JMIR.pdf
