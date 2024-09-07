@@ -1,6 +1,6 @@
-<h1 id="preprints"></h1>
+<h1 id="other_author"></h1>
 
-<h2 style="margin: 60px 0px -15px;">Preprints</h2>
+<h2 style="margin: 60px 0px -15px;">Other Author</h2>
 
 
 <div class="publications">
