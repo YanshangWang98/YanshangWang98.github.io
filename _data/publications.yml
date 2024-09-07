@@ -14,7 +14,7 @@ main:
     page: https://onlinelibrary.wiley.com/doi/full/10.1155/2024/4110906
     image: ./assets/files/Wang_He_2024_Depression_and_Anxiety.png
     #citation: sf-0AGoAAAAJ:qjMakFHDy7sC
-    bibtex: https://bib.yliu.me/ECCV24.txt
+    #bibtex:
     notes: Published
     
   - title: Does college education reduce the risk of schizophrenia? Evidence from a college enrollment expansion policy in China.
@@ -24,7 +24,6 @@ main:
     pdf: assets/files/Wang_et_al_2024_Schizophrenia_Research.pdf
     page: https://www.sciencedirect.com/science/article/pii/S0920996424000343
     image: ./assets/files/Wang_et_al_2024_Schizophrenia_Research.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Community-based integrated care for patients with diabetes and depression (CIC-PDD)-study protocol for a cluster randomized controlled trial.
@@ -34,7 +33,6 @@ main:
     pdf: assets/files/Wang_et_al_2023_Trials.pdf
     page: https://link.springer.com/article/10.1186/s13063-023-07561-0
     image: ./assets/files/Wang_et_al_2023_Trials.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
 
@@ -45,7 +43,6 @@ main:
     pdf: assets/files/Wang_et_al_2023_BJHP.pdf
     page: https://bpspsychub.onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12608?casa_token=YNQmH6VZjoQAAAAA%3A7oxP8diC6qjVNZ2SfLs3Fq9iqE8268T033KUiLUDU-iFDhPU1KremAQYV5fXVr6ZorWNxJln30qjJxXO
     image: ./assets/files/Wang_et_al_2023_BJHP.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Effectiveness of Collaborative Care for Depression and HbA1c in Patients with Depression and Diabetes-A Systematic Review and Meta-Analysis.
@@ -55,7 +52,6 @@ main:
     pdf: assets/files/Wang_et_al_2022_Int_J_Integr_Care.pdf
     page: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9438466/
     image: ./assets/files/Wang_et_al_2022_Int_J_Integr_Care.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
     
 
@@ -66,7 +62,6 @@ main:
     pdf: assets/files/Wang_et_al_2021_Disaster_Medicine_and_Public_Health_Preparedness.pdf
     page: https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/evaluation-model-for-hospital-response-capability-for-public-health-emergency/62F04C65FF7536F528A1BF0D3402038E
     image: ./assets/files/Wang_et_al_2021_Disaster_Medicine_and_Public_Health_Preparedness.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
     
 
@@ -77,7 +72,6 @@ main:
     pdf: assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.pdf
     page: https://www.sciencedirect.com/science/article/abs/pii/S1064748124004366
     image: ./assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Preferences and willingness to pay for herpes zoster vaccination among Chinese adults-A discrete choice experiment. 
@@ -87,7 +81,6 @@ main:
     pdf: assets/files/Xia_et_al_2024_JMIR.pdf
     page: https://publichealth.jmir.org/2024/1/e51242
     image: ./assets/files/Xia_et_al_2024_JMIR.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: The Impact of Informal Care on Healthcare Utilization of Older Adults with Functional Limitations in China.
@@ -97,7 +90,6 @@ main:
     pdf: assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.pdf
     page: https://www.tandfonline.com/doi/full/10.1080/01634372.2024.2338061
     image: ./assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Medical service utilisation and direct medical cost of depression-a crosss-ectional analysis of urban medical claims data from China.
@@ -107,7 +99,6 @@ main:
     pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/12/9/e056422.abstract
     image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Willingness to vaccinate against herpes zoster in Chinese urban population-a mixed-methods study.
@@ -117,7 +108,6 @@ main:
     pdf: assets/files/Wang_et_al_2023_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/13/12/e079115.long
     image: ./assets/files/Wang_et_al_2023_BMJ_Open.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Effects of retirement on inpatient healthcare utilisation-an observational study in China.
@@ -127,7 +117,6 @@ main:
     pdf: assets/files/Ye_et_al_2024_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/14/1/e077969.abstract
     image: ./assets/files/Ye_et_al_2024_BMJ_Open.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Association of urban-rural health insurance integration with health outcomes among middle-aged and older adults in rural China.
@@ -137,7 +126,6 @@ main:
     pdf: assets/files/Ye_Wang_2023_JAMA_Network_Open.pdf
     page: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2803032
     image: ./assets/files/Ye_Wang_2023_JAMA_Network_Open.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Data envelopment analysis on the efficiency of vaccination services and its influencing factors in Beijing, China.
@@ -147,7 +135,6 @@ main:
     pdf: assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.pdf
     page: https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-023-09758-0
     image: ./assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Antidepressant Use and Expenditure in The Treatment of Patients with Depression-Evidence from China Urban Medical Claims Data.
@@ -157,7 +144,6 @@ main:
     pdf: assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.pdf
     page: https://www.sciencedirect.com/science/article/abs/pii/S0165032721010788
     image: ./assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Community-based rehabilitation interventions on quality of care for people with schizophrenia in China (CRISC)-study protocol for a cluster-randomized controlled trial.
@@ -167,7 +153,6 @@ main:
     pdf: assets/files/Ding_et_al_2023_BMC_Psychiatry.pdf
     page: https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04774-0
     image: ./assets/files/Ding_et_al_2023_BMC_Psychiatry.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Effectiveness of Community Based Rehabilitation Interventions on Symptoms and Functioning for People with Schizophrenia-A Systematic Review and Meta-Analysis.
@@ -177,7 +162,6 @@ main:
     pdf: assets/files/Ye_et_al_2023_Psychiatr_Q.pdf
     page: https://link.springer.com/article/10.1007/s11126-023-10029-8
     image: ./assets/files/Ye_et_al_2023_Psychiatr_Q.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Impacts of the Hearing Aid Intervention on Healthcare Utilization and Costs Among Middle-Aged and Older Adults-Results from A Randomized Controlled Trial in Rural China.
@@ -187,7 +171,6 @@ main:
     pdf: assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.pdf
     page: https://www.sciencedirect.com/science/article/pii/S2666606522002097
     image: ./assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Medical Service Utilisation and Direct Medical Cost of Depression-A Cross-Sectional Analysis of Urban Medical Claims Data from China. 
@@ -197,7 +180,6 @@ main:
     pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/12/9/e056422.long
     image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
   - title: Does self-perceived income priority matter? The association between income inequality and allostatic load in China. 
@@ -207,7 +189,6 @@ main:
     pdf: assets/files/Ding_et_al_2022_Stress.pdf
     page: https://www.tandfonline.com/doi/full/10.1080/10253890.2021.1999407
     image: ./assets/files/Ding_et_al_2022_Stress.png
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
     notes: Published
 
 
