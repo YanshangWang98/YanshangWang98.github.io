@@ -9,6 +9,8 @@ layout: homepage
 I am currently a Ph.D. student at [Peking University](https://www.pku.edu.cn/), working under the mentorship of Prof. [Ping He](https://www.cchds.pku.edu.cn/yjtd/qzjs/69117.htm). And, I am a visiting PhD student at [Imperial College London](https://www.imperial.ac.uk/school-public-health/primary-care-and-public-health/), working with [Dr.Benedict Hayhoe](https://profiles.imperial.ac.uk/b.hayhoe) and [Dr.Grazia Antonacci](https://profiles.imperial.ac.uk/g.antonacci). In addition, I am working with [Prof.Till Bärnighausen](https://www.klinikum.uni-heidelberg.de/heidelberger-institut-fuer-global-health/directorate/members/baernighausen-till/) as a reasearch assistant, who is the director of [Heidelberg Institute of Global Health](https://www.klinikum.uni-heidelberg.de/heidelberger-institut-fuer-global-health/).
 My biography is [here](./biography.html).
 
+<strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600">I am actively looking for a Post-doc opportunity and research collaborators. If you have any positions or are interested, please send me an email. </strong></strong>
+
 ## Research Interest
 
 - **Health Policy:** evaluation.
