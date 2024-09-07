@@ -1,15 +1,20 @@
 # Basic Information 
-title: Yaoyao Liu
-position: Assistant Professor
-affiliation: University of Illinois Urbana-Champaign
-affiliation_link: https://www.illinois.edu/
-affiliation_logo: ./assets/img/illinois.svg
-email: lyy (at) illinois.edu
+title: Yanshang Wang
+position: Ph.D. Student
+affiliation: Peking University; Imperial College London
+subaffiliation: China Center for Health Development Studies
+affiliation_link: https://www.pku.edu.cn/
+subaffiliation_link: https://www.cchds.pku.edu.cn/
+affiliation_logo: ./assets/img/spinion.svg
+email: wangyanshang98@gmail.com
+email2: wangyanshang@bjmu.edu.cn; yanshang.wang@imperial.ac.uk
+address: London W12 7TA, England
+address_link: https://www.google.fr/maps/place/Imperial+College+London+White+City+Campus/@51.5164579,-0.2278324,17z/data=!3m2!4b1!5s0x4876102846ca4079:0x197bb4bd39d0e84c!4m6!3m5!1s0x4876110149812b73:0x6048621cfb84b49e!8m2!3d51.5164579!4d-0.2252575!16s%2Fg%2F11j8ndl2pv?entry=ttu&g_ep=EgoyMDI0MDkwMi4xIKXMDSoASAFQAw%3D%3D
 
 # Search Engine Optimization (SEO)
-keywords: yaoyao liu, liu yaoyao, yaoyaoliu, liuyaoyao
-canonical: https://yaoyaoliu.web.illinois.edu/
-description: Yaoyao Liu is an assistant professor at UIUC. His research lies in meta-learning, incremental learning, and image generation.
+keywords: yanshang wang, wang yanshang, wangyanshang, yanshangwang
+canonical: https://minimal-light-theme.yliu.me/
+description: Yanshang Wang is a Ph.D. student at Peking University. His research interests include health policy, health economics, social epidemiology and implementation science.
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
@@ -18,11 +23,12 @@ enable_hopkins_logo: true
 enable_last_update: false
 
 # Links
-link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+cv: ./assets/files/CV.pdf
+google_scholar: https://scholar.google.com/citations?user=sf-0AGoAAAAJ&hl=de
+github_link: https://github.com/yanshangwang98/
+linkedin: https://www.linkedin.com/in/yanshang-wang-269795307/
+researchgate: https://www.researchgate.net/profile/Yanshang-Wang
+orcid: https://orcid.org/0000-0001-6110-6296
 
 # Images 
 avatar: https://img.yliu.me/avatar.jpg
@@ -36,7 +42,7 @@ footnote_link: https://github.com/yaoyao-liu/minimal-light
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: CJD8XwsJhSyQ6sbsU-Gw0cNcUlbah7KW3xvHN2QlwW0
+clustrmaps_id: ${{ secrets.CLUSTRMAPS_ID }}
 
 # The following files will be removed from the generated website.
 exclude:
