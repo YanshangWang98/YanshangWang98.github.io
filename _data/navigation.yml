@@ -4,8 +4,8 @@ main:
     url: ./services.html
     right: true 
 
-  - title: "Talks"
-    url: ./talks.html
+  - title: "Projects"
+    url: ./projects.html
 
   #- title: "Teaching"
   #  url: ./teaching.html
