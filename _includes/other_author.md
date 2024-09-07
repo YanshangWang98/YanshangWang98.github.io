@@ -6,7 +6,7 @@
 <ol class="bibliography">
 {% assign gsDataBaseUrl = 'https://raw.githubusercontent.com/YanshangWang98/YanshangWang98.github.io/' %}
 {% assign url = gsDataBaseUrl | append: 'google-scholar-stats/gs_data.json' %}
-{% for link in site.data.publications.main %}
+{% for link in site.data.other_author.main %}
 
 
 <li>
@@ -63,4 +63,8 @@
   </div>
 </div>
 
+</li>
 
+<br>
+
+{% endfor %}
