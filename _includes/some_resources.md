@@ -22,7 +22,7 @@
 <h4 style="margin:0 10px 0;">Some Tools</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="https://jcr.clarivate.com/jcr/home><autocolor>Journal Citation Reports</a></li>
+  <li><a href="https://jcr.clarivate.com/jcr/home"><autocolor>Journal Citation Reports</a></li>
   <li><a href="https://www.easyscholar.cc/"><autocolor>easyScholar</autocolor></a></li>
   <li><a href="https://www.zotero.org/styles"><autocolor>Zotero Style Repository</autocolor></a></li>
   <li><a href="https://tidyfriday.cn/colors/#type=qualitative&scheme=Set2&n=5"><autocolor>Color advice for cartography
