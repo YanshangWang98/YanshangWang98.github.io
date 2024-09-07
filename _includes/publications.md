@@ -1,12 +1,32 @@
+<!-- 
+This code generates a list of publications with various details such as title, authors, conference, links, and citation information. It uses a for loop to iterate over the publications data and dynamically generates the HTML markup for each publication.
+
+The publications are displayed in an ordered list (<ol>) with each publication represented as a list item (<li>). The list item contains a row (<div class="pub-row">) with two columns: one for the publication image and abbreviation, and the other for the publication details.
+
+The publication image is displayed using an <img> tag with the source specified by the "link.image" variable. The abbreviation of the conference is displayed as a badge using the <abbr> tag.
+
+The publication details such as title, authors, and conference are displayed within their respective <div> tags.
+
+The links associated with the publication (PDF, code, project page, BibTex) are displayed as buttons using the <a> tag with the appropriate href and target attributes. The buttons are styled using CSS classes.
+
+If there are any additional notes or other information associated with the publication, they are displayed using the <strong> and <i> tags.
+
+If the publication has citation information available, it is displayed within a nested for loop. The citation information includes the title, year, number of citations, and a link to the "Cited By" page.
+
+The code is written in Markdown and is intended to be used in a website or web page to display a list of publications.
+
+-->
 <h1 id="publications"></h1>
 
-<h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=Qi2PSmEAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://dblp.org/pid/12/10033-1.html" target="_blank" style="font-size:15px;">DBLP</a><temp style="font-size:15px;">]</temp></h2>
+<h2 style="margin: 30px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=bbGBlQ0AAAAJ&hl=en&oi=ao" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://www.researchgate.net/profile/Yanshang-Wang" target="_blank" style="font-size:15px;">ResearchGate</a><temp style="font-size:15px;">]</temp></h2>
 
 
 <div class="publications">
 <ol class="bibliography">
-
+{% assign gsDataBaseUrl = 'https://raw.githubusercontent.com/YanshangWang98/YanshangWang98.github.io/' %}
+{% assign url = gsDataBaseUrl | append: 'google-scholar-stats/gs_data.json' %}
 {% for link in site.data.publications.main %}
+
 
 <li>
 <div class="pub-row">
@@ -29,9 +49,6 @@
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
-      {% if link.data %} 
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
-      {% endif %}
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
@@ -41,64 +58,32 @@
       {% if link.others %} 
       {{ link.others }}
       {% endif %}
+      {% if link.citation %} 
+      <strong> <a style="color:#e74d3c; font-weight:600"> • <i class="total_citation_mtl" data-citation="{{ link.citation }}"></i> <i style="color:#e74d3c; font-weight:600"> Citations </i></a></strong>
+      <script>
+        $(document).ready(function () {
+            var gsDataBaseUrl = 'https://raw.githubusercontent.com/YanshangWang98/YanshangWang98.github.io/';
+            $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+                var citationEles = document.getElementsByClassName('total_citation_mtl');
+                Array.prototype.forEach.call(citationEles, function(element) {
+                    var citationKey = element.getAttribute('data-citation');
+                    if (data['publications'][citationKey]) {
+                        var numCitations = data['publications'][citationKey]['num_citations'];
+                        element.innerHTML = numCitations;
+                    } else {
+                        element.innerHTML = 'N/A';
+                    }
+                });
+            });
+        });
+      </script>
+      {% endif %}
     </div>
   </div>
 </div>
+
 </li>
 
 <br>
 
 {% endfor %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="https://img.yliu.me/teaser/MTL_CVPR.png" class="teaser img-fluid z-depth-1">
-            <abbr class="badge">CVPR</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Meta-Transfer_Learning_for_Few-Shot_Learning_CVPR_2019_paper.html">Meta-Transfer Learning for Few-Shot Learning</a></div>
-      <div class="author">Qianru Sun*, <strong>Yaoyao Liu*</strong>, Tat-Seng Chua, Bernt Schiele <br> (* Equal contribution)</div>
-      <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2019.</em>
-      </div>
-    <div class="links">
-      <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_Meta-Transfer_Learning_for_Few-Shot_Learning_CVPR_2019_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/yaoyao-liu/meta-transfer-learning" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="https://lyy.mpi-inf.mpg.de/mtl/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="https://dblp.uni-trier.de/rec/conf/cvpr/SunLCS19.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-<br>
-<strong> <a style="color:#e74d3c; font-weight:600" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qi2PSmEAAAAJ&authuser=1&citation_for_view=Qi2PSmEAAAAJ:Tyk-4Ss8FVUC"><i id="total_citation_mtl">800+</i><i style="color:#e74d3c; font-weight:600"> Citations • </i></a><a href="https://github.com/yaoyao-liu/meta-transfer-learning" target="_blank" rel="noopener"><i style="color:#e74d3c; font-weight:600" id="githubstars_mtl">600+</i><i style="color:#e74d3c; font-weight:600"> GitHub Stars</i></a> <a style="color:#e74d3c; font-weight:600" href="https://www.comp.nus.edu.sg/news/2019-cvpr-research/">• <i>Featured in NUS News</i></a></strong>
-<br>
-<strong><a style="color:#e74d3c; font-weight:600" href="https://scholar.google.com/citations?hl=en&view_op=list_hcore&venue=FXe-a9w0eycJ.2024&vq=en&cstart=60"><i>Top 100 Most Cited CVPR Papers over the Last Five Years</i></a></strong>
-  <script>
-  githubStars("yaoyao-liu/meta-transfer-learning", function(stars) {
-  var startext = document.getElementById("githubstars_mtl");
-        startext.innerHTML=stars;
-  });
-  </script>
-  <script>
-      $(document).ready(function () {
-          
-          var gsDataBaseUrl = 'https://raw.githubusercontent.com/yaoyao-liu/yaoyao-liu.github.io/'
-          
-          $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-              var totalCitation = data['publications']['Qi2PSmEAAAAJ:Tyk-4Ss8FVUC']['num_citations']
-              document.getElementById('total_citation_mtl').innerHTML = totalCitation;
-              var citationEles = document.getElementsByClassName('show_paper_citations')
-              Array.prototype.forEach.call(citationEles, element => {
-                  var paperId = element.getAttribute('data')
-                  var numCitations = data['publications'][paperId]['num_citations']
-                  element.innerHTML = '| Citations: ' + numCitations;
-              });
-          });
-      })
-  </script>
-    </div>
-  </div>
-</div>
-</li>
-
-</ol>
-</div>
-
-
