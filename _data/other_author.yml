@@ -9,3 +9,12 @@ main:
     data: https://github.com/wufeim/imagenet3d
     page: https://imagenet3d.github.io/
     image: https://img.yliu.me/teaser/imagenet3d.png
+    
+  - title: Preferences and willingness to pay for herpes zoster vaccination among Chinese adults-A discrete choice experiment. 
+    authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
+    conference_short: JMIR
+    conference: JMIR Public Health and Surveillance
+    pdf: assets/files/Xia_et_al_2024_JMIR.pdf
+    page: https://publichealth.jmir.org/2024/1/e51242
+    image: ./assets/files/Xia_et_al_2024_JMIR.png
+    notes: Published
