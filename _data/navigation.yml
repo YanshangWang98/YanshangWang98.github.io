@@ -1,7 +1,7 @@
 main:
 
-  - title: "Services"
-    url: ./services.html
+  - title: "Some Resources"
+    url: ./some_resources.html
     right: true 
 
   - title: "Projects"
