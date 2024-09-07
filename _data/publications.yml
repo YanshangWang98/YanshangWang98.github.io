@@ -1,150 +1,220 @@
 main:
 
-  - title: "iNeMo: Incremental Neural Mesh Models for Robust Class-Incremental Learning"
-    authors: Tom Fischer, <strong>Yaoyao Liu</strong>, Artur Jesslen, Noor Ahmed, Prakhar Kaushik, Angtian Wang, Alan Yuille, Adam Kortylewski, Eddy Ilg
-    conference_short: ECCV
-    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
-    pdf: https://www.cs.jhu.edu/~yyliu/preprints/iNeMo_Incremental_Neural_Mesh_Models_for_Robust_Class-Incremental_Learning.pdf
-    code: https://github.com/Fischer-Tom/iNeMo
-    bibtex: https://bib.yliu.me/ECCV24.txt
-    image: https://img.yliu.me/teaser/iNeMo.png
+  - title: Inequalities in unmet needs for healthcare services among middle-aged and older adults in China. 
+    authors: <strong>Wang, Y.</strong>, Wang X. & Ye, X.
+    conference_short: JASP
+    conference: Journal of Aging & Social Policy
+    notes: Forthcoming
+
+  - title: The Effects of College Education on Depressive Symptoms An Instrument Variable Approach.
+    authors: <strong>Wang, Y.</strong>, & He, P. 
+    conference_short: Depression and Anxiety
+    conference: Depression and Anxiety
+    pdf: assets/files/Wang_He_2024_Depression_and_Anxiety.pdf
+    page: https://onlinelibrary.wiley.com/doi/full/10.1155/2024/4110906
+    image: ./assets/files/Wang_He_2024_Depression_and_Anxiety.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
     
-  - title: Generating Images with 3D Annotations Using Diffusion Models
-    authors: Wufei Ma*, Qihao Liu*, Jiahao Wang*, Angtian Wang, Xiaoding Yuan, Yi Zhang, Zihao Xiao, Guofeng Zhang, Beijia Lu, Ruxiao Duan, Yongrui Qi, Adam Kortylewski, <strong>Yaoyao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup></strong>, Alan Yuille <br>( <sup><i class="fa-regular fa-envelope fa-xs"></i></sup> Corresponding author)
-    conference_short: ICLR
-    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2024.
-    pdf: https://openreview.net/pdf?id=XlkN11Xj6J
-    code: https://github.com/wufeim/DST3D
-    page: https://ccvl.jhu.edu/3D-DST/
-    bibtex: https://bib.yliu.me/arXiv23_1.txt
-    image: https://img.yliu.me/teaser/dst.png
-    notes: Spotlight
+  - title: Does college education reduce the risk of schizophrenia? Evidence from a college enrollment expansion policy in China.
+    authors: <strong>Wang, Y.</strong>, Ding, R., Luo, Y., He, P., & Zheng, X. 
+    conference_short: Schizophrenia Research
+    conference: Schizophrenia Research
+    pdf: assets/files/Wang_et_al_2024_Schizophrenia_Research.pdf
+    page: https://www.sciencedirect.com/science/article/pii/S0920996424000343
+    image: ./assets/files/Wang_et_al_2024_Schizophrenia_Research.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: "Wakening Past Concepts without Past Data: Class-Incremental Learning from Online Placebos"
-    authors: <strong>Yaoyao Liu</strong>, Yingying Li, Bernt Schiele, and Qianru Sun
-    conference_short: WACV
-    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024.
-    pdf: https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Wakening_Past_Concepts_Without_Past_Data_Class-Incremental_Learning_From_Online_WACV_2024_paper.pdf
-    code: https://github.com/yaoyao-liu/online-placebos
-    bibtex: https://dblp.org/rec/conf/wacv/0001LSS24.html?view=bibtex
-    image: https://img.yliu.me/placebos_wacv24.png
+  - title: Community-based integrated care for patients with diabetes and depression (CIC-PDD)-study protocol for a cluster randomized controlled trial.
+    authors: <strong>Wang, Y.</strong>, Guo, D., Wang, M., Hu, M., Zhu, D., Yu, Q., ... & He, P.
+    conference_short: Trials
+    conference: Trials
+    pdf: assets/files/Wang_et_al_2023_Trials.pdf
+    page: https://link.springer.com/article/10.1186/s13063-023-07561-0
+    image: ./assets/files/Wang_et_al_2023_Trials.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup></strong>, Zongwei Zhou<sup><i class="fa-regular fa-envelope fa-xs"></i></sup> <br>( <sup><i class="fa-regular fa-envelope fa-xs"></i></sup> Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://dblp.org/rec/conf/miccai/ZhangLCYLZ23.html?view=bibtex
-    image: https://img.yliu.me/teaser/miccai2023.png
-    notes: Early Accept
 
-  - title: Continual Detection Transformer for Incremental Object Detection
-    authors: <strong>Yaoyao Liu</strong>, Bernt Schiele, Andrea Vedaldi, Christian Rupprecht
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.
-    pdf: https://www.robots.ox.ac.uk/~vgg/publications/2023/Liu23/liu23.pdf
-    code: https://github.com/yaoyao-liu/CL-DETR
-    page: https://lyy.mpi-inf.mpg.de/CL-DETR/
-    bibtex: https://dblp.org/rec/conf/cvpr/0001SV023.html?view=bibtex
-    image: https://img.yliu.me/teaser/cvpr23_1.png
+  - title: The Dynamic Relationship Between Subjective Social Status and Health-Evidence from A Chinese Cohort Study.
+    authors: <strong>Wang, Y.</strong>, Hu, M., Ding, R., & He, P.
+    conference_short: BJHP
+    conference: British Journal of Health Psychology
+    pdf: assets/files/Wang_et_al_2023_BJHP.pdf
+    page: https://bpspsychub.onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12608?casa_token=YNQmH6VZjoQAAAAA%3A7oxP8diC6qjVNZ2SfLs3Fq9iqE8268T033KUiLUDU-iFDhPU1KremAQYV5fXVr6ZorWNxJln30qjJxXO
+    image: ./assets/files/Wang_et_al_2023_BJHP.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: Class-Incremental Exemplar Compression for Class-Incremental Learning
-    authors: Zilin Luo, <strong>Yaoyao Liu</strong>, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.
-    pdf: https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Class-Incremental_Exemplar_Compression_for_Class-Incremental_Learning_CVPR_2023_paper.pdf
-    code: https://github.com/xfflzl/CIM-CIL
-    page: https://class-il.mpi-inf.mpg.de/CIM/
-    bibtex: https://dblp.org/rec/conf/cvpr/Luo0SS23.html?view=bibtex
-    image: https://img.yliu.me/teaser/cvpr23_2.png
+  - title: Effectiveness of Collaborative Care for Depression and HbA1c in Patients with Depression and Diabetes-A Systematic Review and Meta-Analysis.
+    authors: <strong>Wang, Y.</strong>, Hu, M., Zhu, D., Ding, R., & He, P. 
+    conference_short: Int J Integr Care
+    conference: International Journal of Integrated Care
+    pdf: assets/files/Wang_et_al_2022_Int_J_Integr_Care.pdf
+    page: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9438466/
+    image: ./assets/files/Wang_et_al_2022_Int_J_Integr_Care.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+    
 
-  - title: Online Hyperparameter Optimization for Class-Incremental Learning
-    authors: <strong>Yaoyao Liu</strong>, Yingying Li, Bernt Schiele, Qianru Sun
-    conference_short: AAAI
-    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2301.05032.pdf
-    code: https://github.com/yaoyao-liu/online-hyperparameter-optimization/
-    page: https://class-il.mpi-inf.mpg.de/online-hyperparameter-optimization/
-    bibtex: https://dblp.org/rec/conf/aaai/0001LSS23.html?view=bibtex
-    notes: Oral Presentation
-    image: https://img.yliu.me/teaser/OnlineHyperparameters.png
+  - title: Evaluation Model for Hospital Response Capability for Public Health Emergency.
+    authors: <strong>Wang, Y.</strong>, Sun, H., Zou, J., Ning, J., & Du, Y. 
+    conference_short: DMPHP
+    conference: Disaster Medicine and Public Health Preparedness
+    pdf: assets/files/Wang_et_al_2021_Disaster_Medicine_and_Public_Health_Preparedness.pdf
+    page: https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/evaluation-model-for-hospital-response-capability-for-public-health-emergency/62F04C65FF7536F528A1BF0D3402038E
+    image: ./assets/files/Wang_et_al_2021_Disaster_Medicine_and_Public_Health_Preparedness.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+    
 
-  - title: Meta-Transfer Learning through Hard Tasks
-    authors: Qianru Sun*, <strong>Yaoyao Liu*</strong>, Zhaozheng Chen, Tat-Seng Chua, Bernt Schiele <br> (* Equal contribution)
-    conference_short: TPAMI
-    conference: IEEE Transactions on Pattern Analysis and Machine Intelligence <strong>(TPAMI)</strong>, Volume 44, Number 3, 2022.
-    pdf: https://lyy.mpi-inf.mpg.de/preprints/Meta_Transfer_Learning_through_Hard_Tasks.pdf
-    code: https://github.com/yaoyao-liu/meta-transfer-learning
-    page: https://lyy.mpi-inf.mpg.de/mtl/
-    bibtex: https://dblp.org/rec/journals/pami/SunLCCS22.html?view=bibtex
-    image: https://img.yliu.me/teaser/MTL_PAMI.png
+  - title: Association of cognitive frailty with subsequent all-cause mortality among middle-aged and older adults in 17 countries. 
+    authors: Ding, R., Ye, X., Chen, S., Wang, Y., ... & He, P.
+    conference_short: AJGP
+    conference: The American Journal of Geriatric Psychiatry
+    pdf: assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.pdf
+    page: https://www.sciencedirect.com/science/article/abs/pii/S1064748124004366
+    image: ./assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: "RMM: Reinforced Memory Management for Class-Incremental Learning"
-    authors: <strong>Yaoyao Liu</strong>, Bernt Schiele, Qianru Sun
-    conference_short: NeurIPS
-    conference: Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2021.
-    pdf: https://arxiv.org/pdf/2301.05792.pdf
-    code: https://gitlab.mpi-klsb.mpg.de/yaoyaoliu/rmm/
-    page: https://class-il.mpi-inf.mpg.de/rmm/
-    bibtex: https://dblp.org/rec/conf/nips/LiuSS21.html?view=bibtex
-    image: https://img.yliu.me/teaser/RMM.png
+  - title: Preferences and willingness to pay for herpes zoster vaccination among Chinese adults-A discrete choice experiment. 
+    authors: Ding, R., Ye, X., Chen, S., Wang, Y., ... & He, P.
+    conference_short: JMIR
+    conference: JMIR Public Health and Surveillance
+    pdf: assets/files/Xia_et_al_2024_JMIR.pdf
+    page: https://publichealth.jmir.org/2024/1/e51242
+    image: ./assets/files/Xia_et_al_2024_JMIR.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: Adaptive Aggregation Networks for Class-Incremental Learning
-    authors: <strong>Yaoyao Liu</strong>, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2021.
-    pdf: https://arxiv.org/pdf/2010.05063.pdf
-    code: https://git.io/JYHyt
-    page: https://class-il.mpi-inf.mpg.de/
-    bibtex: https://dblp.org/rec/conf/cvpr/LiuSS21.html?view=bibtex
-    image: https://img.yliu.me/teaser/AANets.png
-    others: '<a href="https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks" target="_blank" rel="noopener"><strong> <i style="color:#e74d3c; font-weight:600" id="githubstars_manets"></i><i style="color:#e74d3c; font-weight:600"> GitHub Stars</i></strong></a><script>githubStars("yaoyao-liu/class-incremental-learning", function(stars) {var startext = document.getElementById("githubstars_manets"); startext.innerHTML=stars;});</script>'
+  - title: The Impact of Informal Care on Healthcare Utilization of Older Adults with Functional Limitations in China.
+    authors: Su, Q., <strong>Wang, Y.</strong>, & Fan, L.
+    conference_short: JoGSW
+    conference: Journal of Gerontological Social Work
+    pdf: assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.pdf
+    page: https://www.tandfonline.com/doi/full/10.1080/01634372.2024.2338061
+    image: ./assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: Learning to Teach and Learn for Semi-supervised Few-shot Image Classification
-    authors: Xinzhe Li, Jianqiang Huang, <strong>Yaoyao Liu</strong>, Qin Zhou, Shibao Zheng, Bernt Schiele, Qianru Sun
-    conference_short: CVIU
-    conference: Computer Vision and Image Understanding <strong>(CVIU)</strong>, Volume 212, 2021.
-    pdf: https://lyy.mpi-inf.mpg.de/preprints/Learning_to_Teach_and_Learn_for_Semi_Supervised_Few_Shot_Image_Classification.pdf
-    code: https://github.com/xinzheli1217/learning-to-self-train
-    bibtex: https://dblp.org/rec/journals/cviu/LiHLZZSS21.html?view=bibtex
-    image: https://img.yliu.me/teaser/LTTL.png
+  - title: Medical service utilisation and direct medical cost of depression-a crosss-ectional analysis of urban medical claims data from China.
+    authors: Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P.
+    conference_short: BMJ Open
+    conference: BMJ Open
+    pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
+    page: https://bmjopen.bmj.com/content/12/9/e056422.abstract
+    image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: Generating Face Images with Attributes for Free
-    authors: <strong>Yaoyao Liu</strong>, Qianru Sun, Xiangnan He, An-An Liu, Yuting Su, Tat-Seng Chua
-    conference_short: TNNLS
-    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Volume 32, Number 6, 2021.
-    pdf: https://ieeexplore.ieee.org/abstract/document/9146375
-    bibtex: https://dblp.org/rec/journals/tnn/LiuSHLSC21.html?view=bibtex
-    image: https://img.yliu.me/teaser/tnnls.png
+  - title: Willingness to vaccinate against herpes zoster in Chinese urban population-a mixed-methods study.
+    authors: Wang, M., Hu, M., <strong>Wang, Y.</strong>, Long, C., Xia, Y., Zhu, D., ... & He, P. 
+    conference_short: BMJ Open
+    conference: BMJ Open
+    pdf: assets/files/Wang_et_al_2023_BMJ_Open.pdf
+    page: https://bmjopen.bmj.com/content/13/12/e079115.long
+    image: ./assets/files/Wang_et_al_2023_BMJ_Open.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning
-    authors: <strong>Yaoyao Liu</strong>, Bernt Schiele, Qianru Sun
-    conference_short: ECCV
-    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2020.
-    pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610392.pdf
-    code: https://gitlab.mpi-klsb.mpg.de/yaoyaoliu/e3bm
-    page: https://lyy.mpi-inf.mpg.de/e3bm/
-    bibtex: https://dblp.org/rec/conf/eccv/LiuSS20.html?view=bibtex
-    image: https://img.yliu.me/teaser/E3BM.png
+  - title: Effects of retirement on inpatient healthcare utilisation-an observational study in China.
+    authors: Ye, X., Li, W., <strong>Wang, Y.</strong>, Hu, M., Zhu, D., Shi, X., & He, P. (2024). 
+    conference_short: BMJ Open
+    conference: BMJ Open
+    pdf: assets/files/Ye_et_al_2024_BMJ_Open.pdf
+    page: https://bmjopen.bmj.com/content/14/1/e077969.abstract
+    image: ./assets/files/Ye_et_al_2024_BMJ_Open.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://dblp.org/rec/conf/cvpr/LiuSLSS20.html?view=bibtex
-    notes: Oral Presentation
-    image: https://img.yliu.me/teaser/mnemonics.png
+  - title: Association of urban-rural health insurance integration with health outcomes among middle-aged and older adults in rural China.
+    authors: Ye, X., & <strong>Wang, Y.</strong>
+    conference_short: JAMA Network Open
+    conference: JAMA Network Open
+    pdf: assets/files/Ye_Wang_2023_JAMA_Network_Open.pdf
+    page: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2803032
+    image: ./assets/files/Ye_Wang_2023_JAMA_Network_Open.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
 
-  - title: Learning to Self-Train for Semi-Supervised Few-Shot Classification
-    authors: Xinzhe Li, Qianru Sun, <strong>Yaoyao Liu</strong>, Shibao Zheng, Qin Zhou, Tat-Seng Chua, Bernt Schiele
-    conference_short: NeurIPS
-    conference: Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2019.
-    pdf: https://papers.nips.cc/paper/2019/file/bf25356fd2a6e038f1a3a59c26687e80-Paper.pdf
-    code: https://github.com/xinzheli1217/learning-to-self-trai
-    page: https://lyy.mpi-inf.mpg.de/lst/
-    bibtex: https://dblp.org/rec/conf/nips/LiSLZZCS19.html?view=bibtex
-    image: https://img.yliu.me/teaser/LST.png
+  - title: Data envelopment analysis on the efficiency of vaccination services and its influencing factors in Beijing, China.
+    authors: Hu, M., <strong>Wang, Y.</strong>, Wang, M., Zhu, D., Li, W., Yu, R., ... & He, P. 
+    conference_short: BMC HSR
+    conference: BMC Health Services Research
+    pdf: assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.pdf
+    page: https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-023-09758-0
+    image: ./assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+
+  - title: Antidepressant Use and Expenditure in The Treatment of Patients with Depression-Evidence from China Urban Medical Claims Data.
+    authors: Ding, R., <strong>Wang, Y.</strong>, Ye, X., Zhu, D., Shi, X., & He, P.  
+    conference_short: JAD
+    conference: Journal of Affective Disorders
+    pdf: assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.pdf
+    page: https://www.sciencedirect.com/science/article/abs/pii/S0165032721010788
+    image: ./assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+
+  - title: Community-based rehabilitation interventions on quality of care for people with schizophrenia in China (CRISC)-study protocol for a cluster-randomized controlled trial.
+    authors: Ding, R., Zhao, M., <strong>Wang, Y.</strong>, Wang, M., Guo, D., Liu, X., ... & He, P.  
+    conference_short: BMC psychiatry
+    conference: BMC psychiatry
+    pdf: assets/files/Ding_et_al_2023_BMC_Psychiatry.pdf
+    page: https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04774-0
+    image: ./assets/files/Ding_et_al_2023_BMC_Psychiatry.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+
+  - title: Effectiveness of Community Based Rehabilitation Interventions on Symptoms and Functioning for People with Schizophrenia-A Systematic Review and Meta-Analysis.
+    authors: Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P.   
+    conference_short: Psychiatr Q
+    conference: Psychiatric Quarterly
+    pdf: assets/files/Ye_et_al_2023_Psychiatr_Q.pdf
+    page: https://link.springer.com/article/10.1007/s11126-023-10029-8
+    image: ./assets/files/Ye_et_al_2023_Psychiatr_Q.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+
+  - title: Impacts of the Hearing Aid Intervention on Healthcare Utilization and Costs Among Middle-Aged and Older Adults-Results from A Randomized Controlled Trial in Rural China.
+    authors: Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P.   
+    conference_short: The Lancet Regional Health
+    conference: The Lancet Regional Health-Western Pacific
+    pdf: assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.pdf
+    page: https://www.sciencedirect.com/science/article/pii/S2666606522002097
+    image: ./assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+
+  - title: Medical Service Utilisation and Direct Medical Cost of Depression-A Cross-Sectional Analysis of Urban Medical Claims Data from China. 
+    authors: Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P.    
+    conference_short: BMJ open
+    conference: BMJ open
+    pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
+    page: https://bmjopen.bmj.com/content/12/9/e056422.long
+    image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+
+  - title: Does self-perceived income priority matter? The association between income inequality and allostatic load in China. 
+    authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, Zhu, D., & He, P.    
+    conference_short: Stress
+    conference: Stress
+    pdf: assets/files/Ding_et_al_2022_Stress.pdf
+    page: https://www.tandfonline.com/doi/full/10.1080/10253890.2021.1999407
+    image: ./assets/files/Ding_et_al_2022_Stress.png
+    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
+    notes: Published
+
+
+
+
+
+
+
+
+
+
