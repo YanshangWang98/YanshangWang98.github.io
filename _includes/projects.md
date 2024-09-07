@@ -2,7 +2,7 @@
 
 <h2 style="margin: 60px 0px 10px;">Projects</h2>
 
-<h4 style="margin:0 10px 0;">Lead.</h4>
+<h4 style="margin:0 10px 0;">Leader.</h4>
 <ul style="margin:0 0 5px;">
 </ul>
 
@@ -17,14 +17,3 @@
   <li>北京市自然科学基金面上项目: 整合服务干预对糖尿病与抑郁共病人群健康结局的影响, <strong>[2021-2023]</strong> .</li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Learning to Self-train for Semi-supervised Few-shot Classification.</h4>
-
-<ul style="margin:0 0 5px;">
-
-</ul>
-
-<h4 style="margin:0 10px 0;">Multi-class Incremental Learning.</h4>
-
-<ul style="margin:0 0 20px;">
-
-</ul>
