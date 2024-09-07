@@ -2,4 +2,4 @@
 layout: normal
 ---
 
-{% include_relative _includes/talks.md %}
+{% include_relative _includes/projects.md %}
