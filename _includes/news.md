@@ -2,6 +2,9 @@
 
 <ul>
 
+
+
+<li><strong>[Oct. 2024]</strong> Paticipate in <a href="https://www.lse.ac.uk/lse-health/research/AHIL/Workshop-on-Healthy-Ageing-and-Adult-Caregiving">Workshop on Healthy Ageing and Adult Caregiving</a> and make presentation.</li>
 <li><strong>[Jun. 2024]</strong> Paticipate in <a href="https://euhea.eu/welcome_conference_2024.html">EuHEA 2024</a> and make presentation.</li>
 <li><strong>[Apr. 2024]</strong> Paticipate in <a href="https://integratedcarefoundation.org/events/icic24-24th-international-conference-on-integrated-care-belfast">ICIC 2024</a> and make presentation.</li>
 
