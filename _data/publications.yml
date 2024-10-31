@@ -27,15 +27,17 @@ main:
 
   - title: Effect of Community-based integrated care for patients with diabetes and depression (CIC-PDD) in China-a pragmatic cluster-randomized trial. 
     authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
+    conference_short: DC
+    conference: Diabetes Care
     image: ./assets/files/Wang_CIC_PDD_Effectiveness_2024.png
-    notes: R&R
+    notes: In press
 
   - title: Inequalities in unmet needs for healthcare services among middle-aged and older adults in China. 
     authors: <strong>Wang, Y.</strong>, Wang, X. & Ye, X.
     conference_short: JASP
     conference: Journal of Aging & Social Policy
     image: ./assets/files/Wang_Unmet_Needs_JASP_2024.png
-    notes: Forthcoming
+    notes: In press
 
   - title: The Effects of College Education on Depressive Symptoms An Instrument Variable Approach.
     authors: <strong>Wang, Y.</strong>, & He, P. 
