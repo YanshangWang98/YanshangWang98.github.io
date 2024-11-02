@@ -1,30 +1,5 @@
 main:
 
-  - title: Readiness, barriers and facilitators of implementation of community-based integrated care for patients with diabetes and depression (CIC-PDD)-a mixed method study. 
-    authors: <strong>Wang, Y.</strong> & He, P.
-    image: ./assets/files/Wang_CIC-PDD_Mixed_2024.png
-    notes: Submitted
-
-  - title: Cancer onset, spousal depressive symptoms and life styles-causal evidence from a multicohort study. 
-    authors: <strong>Wang, Y.</strong> & He, P.
-    image: ./assets/files/Wang_Cancer_Spillover_2024.png
-    notes: Under Review
-
-  - title: Effects of the integrated care on healthcare utilization and costs among patients with diabetes and depression-a cluster randomized controlled trial. 
-    authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
-    image: ./assets/files/Wang_CIC_PDD_Utilization_Cost_2024.png
-    notes: Under Review
-
-  - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with Diabetes and Depressive Symptoms. 
-    authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
-    image: ./assets/files/Wang_CIC_PDD_CEA_2024.png
-    notes: Under Review
-    
-  - title: The static and dynamic effects of stroke onset on depressive symptoms in middle-aged and older adults-evidence across 21 countries.
-    authors: <strong>Wang, Y.</strong>, Xia, Y. & He, P.
-    image: ./assets/files/Wang_Stroke_Mental_Health_2024.png
-    notes: R&R
-
   - title: Effect of Community-based integrated care for patients with diabetes and depression (CIC-PDD) in China-a pragmatic cluster-randomized trial. 
     authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
     conference_short: DC
@@ -98,7 +73,30 @@ main:
     notes: Published
     
 
+  - title: Readiness, barriers and facilitators of implementation of community-based integrated care for patients with diabetes and depression (CIC-PDD)-a mixed method study. 
+    authors: <strong>Wang, Y.</strong> & He, P.
+    image: ./assets/files/Wang_CIC-PDD_Mixed_2024.png
+    notes: Submitted
 
+  - title: Cancer onset, spousal depressive symptoms and life styles-causal evidence from a multicohort study. 
+    authors: <strong>Wang, Y.</strong> & He, P.
+    image: ./assets/files/Wang_Cancer_Spillover_2024.png
+    notes: Under Review
+
+  - title: Effects of the integrated care on healthcare utilization and costs among patients with diabetes and depression-a cluster randomized controlled trial. 
+    authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
+    image: ./assets/files/Wang_CIC_PDD_Utilization_Cost_2024.png
+    notes: Under Review
+
+  - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with Diabetes and Depressive Symptoms. 
+    authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
+    image: ./assets/files/Wang_CIC_PDD_CEA_2024.png
+    notes: Under Review
+    
+  - title: The static and dynamic effects of stroke onset on depressive symptoms in middle-aged and older adults-evidence across 21 countries.
+    authors: <strong>Wang, Y.</strong>, Xia, Y. & He, P.
+    image: ./assets/files/Wang_Stroke_Mental_Health_2024.png
+    notes: R&R
 
 
 
