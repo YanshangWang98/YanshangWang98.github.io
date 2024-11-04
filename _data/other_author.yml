@@ -1,4 +1,12 @@
 main:
+  - title: Association between toothbrushing behavior and cardiometabolic multimorbidity among middle aged and older adults in North China-a cross-section study
+    authors: Gyo, D., <strong>Wang, Y.</strong>, ... & He, P.
+    conference_short: BMC
+    conference: BMC Oral Health
+    pdf: assets/files/Guo_et_al_BMC_Oral_Health_2024.pdf
+    page: https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-024-05112-w
+    image: ./assets/files/Guo_et_al_BMC_Oral_Health_2024.png
+    notes: Published
 
   - title: Association of cognitive frailty with subsequent all-cause mortality among middle-aged and older adults in 17 countries. 
     authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
