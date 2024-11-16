@@ -13,8 +13,8 @@ My biography is [here](./biography.html).
 
 ## Research Interest
 
-- **Health Policy:** evaluation.
-- **Health Economics:** causal inference, health inequalities.
+- **Epidemiology:** social epidemiology, cohort study.
+- **Health Economics:** health policy evaluation, causal inference, health inequalities
 - **Implementation Science:** health service research, randomized control trial.
 - **Health Economics Evaluation:** trial-based CEA.
 - **Global Health:** cross countries survey dataset.
