@@ -11,7 +11,7 @@ I am currently a Ph.D. student at [Peking University](https://www.pku.edu.cn/), 
 ## Education
 - **Visiting Ph.D Student**, 2024 - Present, [Imperial College London](https://www.imperial.ac.uk/), England
 - **Ph.D in Medicine**, 2020 - Present, [Peking University](https://www.pku.edu.cn/), China
-- **BA in Public Health**, 2016 - 2020, [Tianjin Medical Univeristy](http://www.tmu.edu.cn/), China
+- **BA in Public Health**, 2016 - 2020, [Tianjin Medical University](http://www.tmu.edu.cn/), China
 
 ## Grants and Fellowships
 - **China Scholarship Council (CSC) Scholarship**, 2023-2025, Visiting PhD Student
