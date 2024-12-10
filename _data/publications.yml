@@ -12,7 +12,9 @@ main:
     conference_short: JASP
     conference: Journal of Aging & Social Policy
     image: ./assets/files/Wang_Unmet_Needs_JASP_2024.png
-    notes: In press
+    pdf: assets/files/Wang_Unmet_Needs_JASP_2024.pdf
+    page: https://www.tandfonline.com/doi/full/10.1080/08959420.2024.2422674
+    notes: Published
 
   - title: The Effects of College Education on Depressive Symptoms An Instrument Variable Approach.
     authors: <strong>Wang, Y.</strong>, & He, P. 
