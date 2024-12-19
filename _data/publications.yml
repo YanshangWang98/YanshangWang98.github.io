@@ -5,7 +5,8 @@ main:
     conference_short: DC
     conference: Diabetes Care
     image: ./assets/files/Wang_CIC_PDD_Effectiveness_2024.png
-    notes: In press
+    page: 
+    notes: Published
 
   - title: Inequalities in unmet needs for healthcare services among middle-aged and older adults in China. 
     authors: <strong>Wang, Y.</strong>, Wang, X. & Ye, X.
