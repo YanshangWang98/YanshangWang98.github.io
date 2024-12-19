@@ -5,7 +5,8 @@ main:
     conference_short: DC
     conference: Diabetes Care
     image: ./assets/files/Wang_CIC_PDD_Effectiveness_2024.png
-    page: 
+    pdf: assets/files/Wang_CIC_PDD_DC_2024.pdf
+    page: https://diabetesjournals.org/care/article/doi/10.2337/dc24-1593/157603/Effect-of-Community-Based-Integrated-Care-for
     notes: Published
 
   - title: Inequalities in unmet needs for healthcare services among middle-aged and older adults in China. 
