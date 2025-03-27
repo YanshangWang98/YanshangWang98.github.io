@@ -14,7 +14,6 @@ main:
     conference: Nature Communications
     image: ./assets/files/Wang_CIC_PDD_NC_2025.png
     pdf: assets/files/Wang_CIC_PDD_NC_2025.pdf
-    page: https://www.nature.com/articles/s41467-025-58120-x
     notes: Published
     
   - title: Effect of Community-based integrated care for patients with diabetes and depression (CIC-PDD) in China-a pragmatic cluster-randomized trial. 
