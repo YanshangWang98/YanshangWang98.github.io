@@ -1,5 +1,13 @@
 main:
 
+   - title: The static and dynamic effects of stroke onset on depressive symptoms in middle-aged and older adults-evidence across 21 countries.
+    authors: <strong>Wang, Y.</strong>, Xia, Y. & He, P.
+    conference_short: JAHA
+    conference: Journal of the American Heart Association
+    image: ./assets/files/Wang_Stroke_Mental_Health_2024.png
+    notes: Forthcoming
+
+ 
  - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with Diabetes and Depressive Symptoms. 
     authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
     conference_short: NC
@@ -9,13 +17,6 @@ main:
     page: https://www.nature.com/articles/s41467-025-58120-x
     notes: Published
     
-  - title: The static and dynamic effects of stroke onset on depressive symptoms in middle-aged and older adults-evidence across 21 countries.
-    authors: <strong>Wang, Y.</strong>, Xia, Y. & He, P.
-    conference_short: JAHA
-    conference: Journal of the American Heart Association
-    image: ./assets/files/Wang_Stroke_Mental_Health_2024.png
-    notes: Forthcoming
-
   - title: Effect of Community-based integrated care for patients with diabetes and depression (CIC-PDD) in China-a pragmatic cluster-randomized trial. 
     authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
     conference_short: DC
