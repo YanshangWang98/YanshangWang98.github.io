@@ -1,11 +1,13 @@
 main:
 
-  - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with Diabetes and Depressive Symptoms. 
+    - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with Diabetes and Depressive Symptoms. 
     authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
     conference_short: NC
     conference: Nature Communications
-    image: ./assets/files/Wang_CIC_PDD_CEA_2024.png
-    notes: Forthcoming
+    image: ./assets/files/Wang_CIC_PDD_NC_2025.png
+    pdf: assets/files/Wang_CIC_PDD_NC_2025.pdf
+    page: https://www.nature.com/articles/s41467-025-58120-x
+    notes: Published
     
   - title: The static and dynamic effects of stroke onset on depressive symptoms in middle-aged and older adults-evidence across 21 countries.
     authors: <strong>Wang, Y.</strong>, Xia, Y. & He, P.
