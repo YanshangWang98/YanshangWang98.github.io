@@ -21,5 +21,5 @@ Ph.D. student at [Peking University](https://www.pku.edu.cn/), working under the
 ## Grants and Fellowships
 - **China Scholarship Council (CSC) Scholarship**, 2023-2025, Visiting PhD Student
 
-## Professional Affiliations
+## Other Professional Affiliations
 - **Research Assistant**, 2024 - Present, [Heidelberg Institute of Global Health (HIGH)](https://www.klinikum.uni-heidelberg.de/heidelberger-institut-fuer-global-health/), Germany
