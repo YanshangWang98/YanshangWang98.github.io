@@ -8,12 +8,14 @@ main:
     page: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005087
     notes: Published
 
-  - title: The static and dynamic effects of stroke onset on depressive symptoms in middle-aged and older adults-evidence across 21 countries. 
-    authors: <strong>Wang, Y.</strong>, Xia, Y. & He, P.
+  - title: "Static and Dynamic Effects of Stroke Onset on Depressive Symptoms in Middle-Aged and Older Adults: Evidence Across 21 Countries"
+    authors: <strong>Wang, Y.</strong>, Xia, Y., Yuan, Y., Luo, Y., Shi, Z., Cui, C., Si, H. & He, P.
     conference_short: JAHA
     conference: Journal of the American Heart Association
-    image: ./assets/files/Wang_Stroke_Mental Health_2024.png
-    notes: Forthcoming
+    image: ./assets/files/Wang_Stroke_Mental_Health_JAHA_2025.png
+    pdf: assets/files/Wang_Stroke_Mental_Health_JAHA_2025.pdf
+    page: https://www.ahajournals.org/doi/full/10.1161/JAHA.124.038339
+    notes: Published
 
 
   - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with T2DM and Depressive Symptoms. 
