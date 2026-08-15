@@ -1,10 +1,21 @@
 main:
-  - title: The static and dynamic effects of stroke onset on depressive symptoms in middle-aged and older adults-evidence across 21 countries. 
-    authors: <strong>Wang, Y.</strong>, Xia, Y. & He, P.
+  - title: "Multimorbidity, health service use, and health insurance by socioeconomic groups in 31 countries: A multi-cohort study"
+    authors: <strong>Wang, Y.</strong>, Cai, C., Shi, Z., Gao, Q., Bottle, A., Sharabiani, M. T. A., Stott, J., Hayhoe, B., & He, P.
+    conference_short: PLoS Med
+    conference: PLOS Medicine
+    image: ./assets/files/Wang_Multimorbidity_PLOS_Medicine_2026.png
+    pdf: assets/files/Wang_Multimorbidity_PLOS_Medicine_2026.pdf
+    page: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005087
+    notes: Published
+
+  - title: "Static and Dynamic Effects of Stroke Onset on Depressive Symptoms in Middle-Aged and Older Adults: Evidence Across 21 Countries"
+    authors: <strong>Wang, Y.</strong>, Xia, Y., Yuan, Y., Luo, Y., Shi, Z., Cui, C., Si, H. & He, P.
     conference_short: JAHA
     conference: Journal of the American Heart Association
-    image: ./assets/files/Wang_Stroke_Mental Health_2024.png
-    notes: Forthcoming
+    image: ./assets/files/Wang_Stroke_Mental_Health_JAHA_2025.png
+    pdf: assets/files/Wang_Stroke_Mental_Health_JAHA_2025.pdf
+    page: https://www.ahajournals.org/doi/full/10.1161/JAHA.124.038339
+    notes: Published
 
 
   - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with T2DM and Depressive Symptoms. 
@@ -107,6 +118,7 @@ main:
     authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
     image: ./assets/files/Wang_CIC_PDD_Utilization_Cost_2024.png
     notes: Under Review
+
 
 
 
