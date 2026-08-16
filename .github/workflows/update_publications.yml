@@ -1,0 +1,40 @@
+name: Update published publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update publication list
+        env:
+          ORCID_ID: "0000-0001-6110-6296"
+          CROSSREF_MAILTO: "wangyanshang98@gmail.com"
+        run: python scripts/update_publications.py
+
+      - name: Open pull request if needed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/update-publications
+          delete-branch: true
+          title: "Update published publications"
+          commit-message: "Update published publications from Crossref"
+          body: |
+            Automated Crossref metadata refresh for published publications.
+            Please review the generated changes before merging.
