@@ -1,70 +1,54 @@
 <h1 id="other_author"></h1>
 
-<h2 style="margin: 60px 0px -15px;">Other Author<temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=bbGBlQ0AAAAJ&hl=en&oi=ao" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://www.researchgate.net/profile/Yanshang-Wang" target="_blank" style="font-size:15px;">ResearchGate</a><temp style="font-size:15px;">]</temp></h2>
-
-<div class="publications">
-<ol class="bibliography">
-{% assign gsDataBaseUrl = 'https://raw.githubusercontent.com/YanshangWang98/YanshangWang98.github.io/' %}
-{% assign url = gsDataBaseUrl | append: 'google-scholar-stats/gs_data.json' %}
-{% for link in site.data.other_author.main %}
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-            <abbr class="badge">{{ link.conference_short }}</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-      {% if link.citation %} 
-      <strong> <a style="color:#e74d3c; font-weight:600"> • <i class="total_citation_mtl" data-citation="{{ link.citation }}"></i> <i style="color:#e74d3c; font-weight:600"> Citations </i></a></strong>
-      <script>
-        $(document).ready(function () {
-            var gsDataBaseUrl = 'https://raw.githubusercontent.com/YanshangWang98/YanshangWang98.github.io/';
-            $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-                var citationEles = document.getElementsByClassName('total_citation_mtl');
-                Array.prototype.forEach.call(citationEles, function(element) {
-                    var citationKey = element.getAttribute('data-citation');
-                    if (data['publications'][citationKey]) {
-                        var numCitations = data['publications'][citationKey]['num_citations'];
-                        element.innerHTML = numCitations;
-                    } else {
-                        element.innerHTML = 'N/A';
-                    }
-                });
-            });
-        });
-      </script>
-      {% endif %}
-    </div>
-  </div>
+<div class="publications-intro">
+  <h2>Other Author</h2>
+  <p>
+    <a href="https://scholar.google.com/citations?user=bbGBlQ0AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://www.researchgate.net/profile/Yanshang-Wang" target="_blank" rel="noopener">ResearchGate</a>
+  </p>
 </div>
 
-</li>
+<div class="publications">
+  <ol class="bibliography publication-list">
+    {% for link in site.data.other_author.main %}
+    <li class="publication-item">
+      <article class="publication-card">
+        <div class="publication-card__meta">
+          {% if link.conference_short %}
+          <span class="publication-venue-short">{{ link.conference_short }}</span>
+          {% endif %}
+          {% if link.notes %}
+          <span class="publication-status">{{ link.notes }}</span>
+          {% endif %}
+        </div>
 
-<br>
+        <h3 class="publication-title">
+          {% if link.page %}
+          <a href="{{ link.page }}" target="_blank" rel="noopener">{{ link.title }}</a>
+          {% elsif link.pdf %}
+          <a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>
+          {% else %}
+          {{ link.title }}
+          {% endif %}
+        </h3>
 
-{% endfor %}
+        <div class="publication-authors">{{ link.authors }}</div>
+
+        <div class="publication-card__footer">
+          <span class="publication-journal"><em>{{ link.conference }}</em></span>
+          {% if link.page %}
+          <a class="publication-link" href="{{ link.page }}" target="_blank" rel="noopener">
+            View article <span aria-hidden="true">↗</span>
+          </a>
+          {% elsif link.pdf %}
+          <a class="publication-link" href="{{ link.pdf }}" target="_blank" rel="noopener">
+            View article <span aria-hidden="true">↗</span>
+          </a>
+          {% endif %}
+        </div>
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
