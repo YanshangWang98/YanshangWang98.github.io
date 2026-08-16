@@ -1,83 +1,84 @@
 main:
+  - title: "Effects of the integrated care on healthcare utilization and costs among patients with diabetes and depression: a cluster randomized controlled trial"
+    authors: "<strong>Wang, Y.</strong>, Guo, D., Xia, Y., Shi, Z., Zhu, D. & He, P."
+    conference_short: "American Journal of Epidemiology"
+    conference: "American Journal of Epidemiology"
+    page: "https://doi.org/10.1093/aje/kwag175"
+    notes: Published
+
   - title: "Multimorbidity, health service use, and health insurance by socioeconomic groups in 31 countries: A multi-cohort study"
-    authors: <strong>Wang, Y.</strong>, Cai, C., Shi, Z., Gao, Q., Bottle, A., Sharabiani, M. T. A., Stott, J., Hayhoe, B., & He, P.
-    conference_short: PLoS Med
-    conference: PLOS Medicine
-    page: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005087
+    authors: "<strong>Wang, Y.</strong>, Cai, C., Shi, Z., Gao, Q., Bottle, A., Sharabiani, M. T. A., Stott, J., Hayhoe, B., & He, P."
+    conference_short: "PLoS Med"
+    conference: "PLOS Medicine"
+    page: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005087"
     notes: Published
 
   - title: "Static and Dynamic Effects of Stroke Onset on Depressive Symptoms in Middle-Aged and Older Adults: Evidence Across 21 Countries"
-    authors: <strong>Wang, Y.</strong>, Xia, Y., Yuan, Y., Luo, Y., Shi, Z., Cui, C., Si, H. & He, P.
-    conference_short: JAHA
-    conference: Journal of the American Heart Association
-    page: https://www.ahajournals.org/doi/full/10.1161/JAHA.124.038339
+    authors: "<strong>Wang, Y.</strong>, Xia, Y., Yuan, Y., Luo, Y., Shi, Z., Cui, C., Si, H. & He, P."
+    conference_short: "JAHA"
+    conference: "Journal of the American Heart Association"
+    page: "https://www.ahajournals.org/doi/full/10.1161/JAHA.124.038339"
     notes: Published
 
-
-  - title: Cost-Effectiveness of Community-based Integrated Care Model for Patients with T2DM and Depressive Symptoms.
-    authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
-    conference_short: NC
-    conference: Nature Communications
-    page: https://www.nature.com/articles/s41467-025-58120-x
+  - title: "Cost-Effectiveness of Community-based Integrated Care Model for Patients with T2DM and Depressive Symptoms."
+    authors: "<strong>Wang, Y.</strong>, Guo, D. & He, P."
+    conference_short: "NC"
+    conference: "Nature Communications"
+    page: "https://www.nature.com/articles/s41467-025-58120-x"
     notes: Published
 
-  - title: Effect of Community-based integrated care for patients with diabetes and depression (CIC-PDD) in China-a pragmatic cluster-randomized trial.
-    authors: <strong>Wang, Y.</strong>, Guo, D. & He, P.
-    conference_short: DC
-    conference: Diabetes Care
-    page: https://diabetesjournals.org/care/article/doi/10.2337/dc24-1593/157603/Effect-of-Community-Based-Integrated-Care-for
+  - title: "Effect of Community-based integrated care for patients with diabetes and depression (CIC-PDD) in China-a pragmatic cluster-randomized trial."
+    authors: "<strong>Wang, Y.</strong>, Guo, D. & He, P."
+    conference_short: "DC"
+    conference: "Diabetes Care"
+    page: "https://diabetesjournals.org/care/article/doi/10.2337/dc24-1593/157603/Effect-of-Community-Based-Integrated-Care-for"
     notes: Published
 
-  - title: Inequalities in unmet needs for healthcare services among middle-aged and older adults in China.
-    authors: <strong>Wang, Y.</strong>, Wang, X. & Ye, X.
-    conference_short: JASP
-    conference: Journal of Aging & Social Policy
-    page: https://www.tandfonline.com/doi/full/10.1080/08959420.2024.2422674
+  - title: "Inequalities in unmet needs for healthcare services among middle-aged and older adults in China."
+    authors: "<strong>Wang, Y.</strong>, Wang, X. & Ye, X."
+    conference_short: "JASP"
+    conference: "Journal of Aging & Social Policy"
+    page: "https://www.tandfonline.com/doi/full/10.1080/08959420.2024.2422674"
     notes: Published
 
-  - title: The Effects of College Education on Depressive Symptoms An Instrument Variable Approach.
-    authors: <strong>Wang, Y.</strong>, & He, P.
-    conference_short: Depression and Anxiety
-    conference: Depression and Anxiety
-    page: https://onlinelibrary.wiley.com/doi/full/10.1155/2024/4110906
-    #citation: sf-0AGoAAAAJ:qjMakFHDy7sC
-    #bibtex:
+  - title: "The Effects of College Education on Depressive Symptoms An Instrument Variable Approach."
+    authors: "<strong>Wang, Y.</strong>, & He, P."
+    conference_short: "Depression and Anxiety"
+    conference: "Depression and Anxiety"
+    page: "https://onlinelibrary.wiley.com/doi/full/10.1155/2024/4110906"
     notes: Published
 
-  - title: Does college education reduce the risk of schizophrenia? Evidence from a college enrollment expansion policy in China.
-    authors: <strong>Wang, Y.</strong>, Ding, R., Luo, Y., He, P., & Zheng, X.
-    conference_short: Schizophrenia Research
-    conference: Schizophrenia Research
-    page: https://www.sciencedirect.com/science/article/pii/S0920996424000343
+  - title: "Does college education reduce the risk of schizophrenia? Evidence from a college enrollment expansion policy in China."
+    authors: "<strong>Wang, Y.</strong>, Ding, R., Luo, Y., He, P., & Zheng, X."
+    conference_short: "Schizophrenia Research"
+    conference: "Schizophrenia Research"
+    page: "https://www.sciencedirect.com/science/article/pii/S0920996424000343"
     notes: Published
 
-  - title: Community-based integrated care for patients with diabetes and depression (CIC-PDD)-study protocol for a cluster randomized controlled trial.
-    authors: <strong>Wang, Y.</strong>, Guo, D., Wang, M., Hu, M., Zhu, D., Yu, Q., ... & He, P.
-    conference_short: Trials
-    conference: Trials
-    page: https://link.springer.com/article/10.1186/s13063-023-07561-0
+  - title: "Community-based integrated care for patients with diabetes and depression (CIC-PDD)-study protocol for a cluster randomized controlled trial."
+    authors: "<strong>Wang, Y.</strong>, Guo, D., Wang, M., Hu, M., Zhu, D., Yu, Q., ... & He, P."
+    conference_short: "Trials"
+    conference: "Trials"
+    page: "https://link.springer.com/article/10.1186/s13063-023-07561-0"
     notes: Published
 
-
-  - title: The Dynamic Relationship Between Subjective Social Status and Health-Evidence from A Chinese Cohort Study.
-    authors: <strong>Wang, Y.</strong>, Hu, M., Ding, R., & He, P.
-    conference_short: BJHP
-    conference: British Journal of Health Psychology
-    page: https://bpspsychub.onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12608?casa_token=YNQmH6VZjoQAAAAA%3A7oxP8diC6qjVNZ2SfLs3Fq9iqE8268T033KUiLUDU-iFDhPU1KremAQYV5fXVr6ZorWNxJln30qjJxXO
+  - title: "The Dynamic Relationship Between Subjective Social Status and Health-Evidence from A Chinese Cohort Study."
+    authors: "<strong>Wang, Y.</strong>, Hu, M., Ding, R., & He, P."
+    conference_short: "BJHP"
+    conference: "British Journal of Health Psychology"
+    page: "https://bpspsychub.onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12608?casa_token=YNQmH6VZjoQAAAAA%3A7oxP8diC6qjVNZ2SfLs3Fq9iqE8268T033KUiLUDU-iFDhPU1KremAQYV5fXVr6ZorWNxJln30qjJxXO"
     notes: Published
 
-  - title: Effectiveness of Collaborative Care for Depression and HbA1c in Patients with Depression and Diabetes-A Systematic Review and Meta-Analysis.
-    authors: <strong>Wang, Y.</strong>, Hu, M., Zhu, D., Ding, R., & He, P.
-    conference_short: Int J Integr Care
-    conference: International Journal of Integrated Care
-    page: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9438466/
+  - title: "Effectiveness of Collaborative Care for Depression and HbA1c in Patients with Depression and Diabetes-A Systematic Review and Meta-Analysis."
+    authors: "<strong>Wang, Y.</strong>, Hu, M., Zhu, D., Ding, R., & He, P."
+    conference_short: "Int J Integr Care"
+    conference: "International Journal of Integrated Care"
+    page: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9438466/"
     notes: Published
 
-
-  - title: Evaluation Model for Hospital Response Capability for Public Health Emergency.
-    authors: <strong>Wang, Y.</strong>, Sun, H., Zou, J., Ning, J., & Du, Y.
-    conference_short: DMPHP
-    conference: Disaster Medicine and Public Health Preparedness
-    page: https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/evaluation-model-for-hospital-response-capability-for-public-health-emergency/62F04C65FF7536F528A1BF0D3402038E
+  - title: "Evaluation Model for Hospital Response Capability for Public Health Emergency."
+    authors: "<strong>Wang, Y.</strong>, Sun, H., Zou, J., Ning, J., & Du, Y."
+    conference_short: "DMPHP"
+    conference: "Disaster Medicine and Public Health Preparedness"
+    page: "https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/evaluation-model-for-hospital-response-capability-for-public-health-emergency/62F04C65FF7536F528A1BF0D3402038E"
     notes: Published
-
