@@ -8,6 +8,7 @@ adds submitted or under-review records.
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
@@ -218,6 +219,13 @@ def render(records: list[dict[str, str]]) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--report-file",
+        help="Write newly discovered candidates as JSON for the email step.",
+    )
+    args = parser.parse_args()
+
     current = DATA_FILE.read_text(encoding="utf-8")
     existing = parse_existing(current)
     seen = {record_key(record) for record in existing}
@@ -242,6 +250,14 @@ def main() -> None:
     )
     output_records = discovered + existing
     DATA_FILE.write_text(render(output_records), encoding="utf-8")
+    if args.report_file:
+        report_path = Path(args.report_file)
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(
+            json.dumps(discovered, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+
     print(
         f"Crossref returned {len(existing) + len(discovered)} published records; "
         f"added {len(discovered)} new records."
