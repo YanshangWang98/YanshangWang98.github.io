@@ -221,6 +221,7 @@ def main() -> None:
     current = DATA_FILE.read_text(encoding="utf-8")
     existing = parse_existing(current)
     seen = {record_key(record) for record in existing}
+    seen_titles = {normalize_title(record.get("title", "")) for record in existing}
 
     discovered: list[dict[str, Any]] = []
     for item in fetch_crossref_items():
@@ -228,9 +229,11 @@ def main() -> None:
         if not record:
             continue
         key = record_key(record)
-        if key in seen:
+        title_key = normalize_title(record.get("title", ""))
+        if key in seen or title_key in seen_titles:
             continue
         seen.add(key)
+        seen_titles.add(title_key)
         discovered.append(record)
 
     discovered.sort(
