@@ -171,17 +171,12 @@
           <i class="fab fa-orcid"></i>
         </a>
         {% endif %}
-        </div>
-
         {% if site.wechat_qr %}
-        <div class="wechat-card">
-          <a class="wechat-card__link" href="{{ site.wechat_qr }}" target="_blank" rel="noopener" aria-label="Open HEpi Lab WeChat QR code">
-            <img src="{{ site.wechat_qr }}" alt="HEpi Lab WeChat QR code" loading="lazy" />
-          </a>
-          <div class="wechat-card__label">HEpi Lab</div>
-          <div class="wechat-card__hint">Scan to follow</div>
-        </div>
+        <a style="margin: 0 5px 0 0" href="{{ site.wechat_qr }}" target="_blank" rel="noopener" aria-label="HEpi Lab WeChat QR code" title="HEpi Lab">
+          <i class="fab fa-weixin"></i>
+        </a>
         {% endif %}
+        </div>
         <br>
 
       </header>
