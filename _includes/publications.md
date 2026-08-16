@@ -35,11 +35,6 @@
 
         <div class="publication-card__footer">
           <span class="publication-journal"><em>{{ link.conference }}</em></span>
-          {% if link.page %}
-          <a class="publication-link" href="{{ link.page }}" target="_blank" rel="noopener">
-            View article <span aria-hidden="true">↗</span>
-          </a>
-          {% endif %}
         </div>
       </article>
     </li>
