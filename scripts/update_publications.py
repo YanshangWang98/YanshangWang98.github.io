@@ -54,7 +54,7 @@ def parse_existing(text: str) -> list[dict[str, str]]:
             "notes",
         ):
             match = re.search(
-                rf"(?m)^\s+{re.escape(key)}:\s*(.*)$", block
+                rf"(?m)^\s*(?:-\s*)?{re.escape(key)}:\s*(.*)$", block
             )
             if match:
                 record[key] = yaml_value(match.group(1))
