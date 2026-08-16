@@ -172,6 +172,16 @@
         </a>
         {% endif %}
         </div>
+
+        {% if site.wechat_qr %}
+        <div class="wechat-card">
+          <a class="wechat-card__link" href="{{ site.wechat_qr }}" target="_blank" rel="noopener" aria-label="Open HEpi Lab WeChat QR code">
+            <img src="{{ site.wechat_qr }}" alt="HEpi Lab WeChat QR code" loading="lazy" />
+          </a>
+          <div class="wechat-card__label">HEpi Lab</div>
+          <div class="wechat-card__hint">Scan to follow</div>
+        </div>
+        {% endif %}
         <br>
 
       </header>
