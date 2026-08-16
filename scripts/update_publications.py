@@ -91,6 +91,18 @@ def initials(given: str) -> str:
     return " ".join(f"{token[0].upper()}." for token in tokens)
 
 
+def is_user_author(author: dict[str, Any]) -> bool:
+    family = str(author.get("family") or "").strip()
+    given = str(author.get("given") or "").strip()
+    return (
+        normalize_orcid(str(author.get("ORCID") or "")) == ORCID_ID.lower()
+        or (
+            family.lower() == "wang"
+            and given.lower().startswith("yanshang")
+        )
+    )
+
+
 def format_authors(authors: list[dict[str, Any]]) -> str:
     names: list[str] = []
     for author in authors:
@@ -99,14 +111,9 @@ def format_authors(authors: list[dict[str, Any]]) -> str:
         if not family:
             continue
         name = f"{family}, {initials(given)}".rstrip(", ")
-        is_user = (
-            normalize_orcid(str(author.get("ORCID") or "")) == ORCID_ID.lower()
-            or (
-                family.lower() == "wang"
-                and given.lower().startswith("yanshang")
-            )
+        names.append(
+            f"<strong>{name}</strong>" if is_user_author(author) else name
         )
-        names.append(f"<strong>{name}</strong>" if is_user else name)
 
     if not names:
         return ""
@@ -158,7 +165,19 @@ def crossref_record(item: dict[str, Any]) -> dict[str, Any] | None:
     doi = str(item.get("DOI") or "").strip()
     title = first(item.get("title"))
     journal = first(item.get("container-title"))
-    authors = format_authors(item.get("author") or [])
+    raw_authors = item.get("author") or []
+    if (
+        re.search(
+            r"\b(correction|erratum|retraction|corrigendum|expression of concern)\b",
+            title,
+            flags=re.I,
+        )
+        or not raw_authors
+        or not is_user_author(raw_authors[0])
+    ):
+        return None
+
+    authors = format_authors(raw_authors)
     if not doi or not title or not journal or not authors:
         return None
 
