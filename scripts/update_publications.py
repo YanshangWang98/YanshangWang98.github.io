@@ -64,7 +64,10 @@ def parse_existing(text: str) -> list[dict[str, str]]:
 
 
 def normalize_title(title: str) -> str:
-    return re.sub(r"\W+", " ", title.lower()).strip()
+    title = title.lower().replace("t2dm", "diabetes")
+    title = title.replace("community-based", "community based")
+    title = title.replace("cic-pdd", "cic pdd")
+    return re.sub(r"\W+", " ", title).strip()
 
 
 def normalize_orcid(value: str) -> str:
