@@ -141,7 +141,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     margin-bottom: 0.65rem;
 }
 
-.publication-venue-short,
+.publication-venue,
 .publication-status {
     border-radius: 999px;
     display: inline-block;
@@ -153,7 +153,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     text-transform: uppercase;
 }
 
-.publication-venue-short {
+.publication-venue {
     background: #eaf4fb;
     color: #2578a9;
 }
@@ -233,7 +233,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
         box-shadow: 0 9px 24px rgba(0, 0, 0, 0.28);
     }
 
-    .publication-venue-short {
+    .publication-venue {
         background: #203e50;
         color: #8fd4f5;
     }

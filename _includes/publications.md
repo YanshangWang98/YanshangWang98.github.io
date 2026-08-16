@@ -15,8 +15,8 @@
     <li class="publication-item">
       <article class="publication-card">
         <div class="publication-card__meta">
-          {% if link.conference_short %}
-          <span class="publication-venue-short">{{ link.conference_short }}</span>
+          {% if link.conference %}
+          <span class="publication-venue">{{ link.conference }}</span>
           {% endif %}
           {% if link.notes %}
           <span class="publication-status">{{ link.notes }}</span>
@@ -33,9 +33,6 @@
 
         <div class="publication-authors">{{ link.authors }}</div>
 
-        <div class="publication-card__footer">
-          <span class="publication-journal"><em>{{ link.conference }}</em></span>
-        </div>
       </article>
     </li>
     {% endfor %}
