@@ -1,4 +1,4 @@
-name: Update published publications
+name: Review published publications
 
 on:
   workflow_dispatch:
@@ -21,20 +21,55 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Update publication list
+      - name: Find candidates and update working tree
+        id: update
         env:
           ORCID_ID: "0000-0001-6110-6296"
           CROSSREF_MAILTO: "wangyanshang98@gmail.com"
-        run: python scripts/update_publications.py
+          REPORT_FILE: ${{ runner.temp }}/publication-candidates.json
+        run: |
+          python scripts/update_publications.py --report-file "$REPORT_FILE"
+          count="$(python -c 'import json, os; print(len(json.load(open(os.environ["REPORT_FILE"], encoding="utf-8"))))')"
+          echo "candidate_count=$count" >> "$GITHUB_OUTPUT"
 
       - name: Open pull request if needed
+        id: pull_request
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: automation/update-publications
           delete-branch: true
-          title: "Update published publications"
-          commit-message: "Update published publications from Crossref"
+          draft: true
+          title: "Review publication candidates"
+          commit-message: "Add publication candidates for review"
           body: |
-            Automated Crossref metadata refresh for published publications.
-            Please review the generated changes before merging.
+            The weekly Crossref scan found new publication candidates.
+            Please confirm that each item belongs to Yanshang Wang before merging.
+            The website will only change after this pull request is reviewed and merged.
+
+      - name: Check Gmail configuration
+        id: email_config
+        env:
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          if [ -n "$GMAIL_USERNAME" ] && [ -n "$GMAIL_APP_PASSWORD" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send publication review email
+        if: ${{ steps.update.outputs.candidate_count != '0' && steps.email_config.outputs.configured == 'true' }}
+        env:
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_TO: "wangyanshang98@gmail.com"
+          PUBLICATION_REPORT_FILE: ${{ runner.temp }}/publication-candidates.json
+          PUBLICATION_PR_URL: ${{ steps.pull_request.outputs.pull-request-url }}
+        run: python scripts/send_publication_email.py
+
+      - name: Report missing Gmail configuration
+        if: ${{ steps.update.outputs.candidate_count != '0' && steps.email_config.outputs.configured != 'true' }}
+        run: |
+          echo "::warning::Gmail notification is not configured. Add GMAIL_USERNAME and GMAIL_APP_PASSWORD repository secrets."
