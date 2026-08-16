@@ -22,7 +22,7 @@ CROSSREF_MAILTO = os.environ.get(
 )
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "_data" / "publications.yml"
-BLOCK_RE = re.compile(r"(?ms)^  - title:.*?(?=^  - title:|\\Z)")
+BLOCK_RE = re.compile(r"(?ms)^  - title:.*?(?=^  - title:|\Z)")
 
 
 def first(value: Any) -> str:
@@ -54,7 +54,7 @@ def parse_existing(text: str) -> list[dict[str, str]]:
             "notes",
         ):
             match = re.search(
-                rf"(?m)^\\s+{re.escape(key)}:\\s*(.*)$", block
+                rf"(?m)^\s+{re.escape(key)}:\s*(.*)$", block
             )
             if match:
                 record[key] = yaml_value(match.group(1))
@@ -64,7 +64,7 @@ def parse_existing(text: str) -> list[dict[str, str]]:
 
 
 def normalize_title(title: str) -> str:
-    return re.sub(r"\\W+", " ", title.lower()).strip()
+    return re.sub(r"\W+", " ", title.lower()).strip()
 
 
 def normalize_orcid(value: str) -> str:
@@ -74,7 +74,7 @@ def normalize_orcid(value: str) -> str:
 def extract_doi(value: str) -> str:
     value = urllib.parse.unquote(value or "")
     match = re.search(
-        r"10\\.\\d{4,9}/[-._;()/:A-Z0-9]+", value, flags=re.I
+        r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", value, flags=re.I
     )
     if not match:
         return ""
