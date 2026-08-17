@@ -212,6 +212,8 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 }
 
 .publication-venue-short,
+.publication-venue,
+.publication-year,
 .publication-status {
   border-radius: 999px;
   display: inline-block;
@@ -226,6 +228,16 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .publication-venue-short {
   background: #eaf4fb;
   color: #2578a9;
+}
+
+.publication-venue {
+  background: #eaf4fb;
+  color: #2578a9;
+}
+
+.publication-year {
+  background: #f4f6f8;
+  color: #687482;
 }
 
 .publication-status {
@@ -306,6 +318,16 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
   .publication-venue-short {
     background: #203e50;
     color: #8fd4f5;
+  }
+
+  .publication-venue {
+    background: #203e50;
+    color: #8fd4f5;
+  }
+
+  .publication-year {
+    background: #353946;
+    color: #c6cbd3;
   }
 
   .publication-status {
