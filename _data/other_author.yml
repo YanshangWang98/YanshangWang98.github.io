@@ -1,136 +1,156 @@
 main:
-  - title: Association between toothbrushing behavior and cardiometabolic multimorbidity among middle aged and older adults in North China-a cross-section study
-    authors: Gyo, D., <strong>Wang, Y.</strong>, ... & He, P.
-    conference_short: BMC
-    conference: BMC Oral Health
-    pdf: assets/files/Guo_et_al_BMC_Oral_Health_2024.pdf
-    page: https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-024-05112-w
-    image: ./assets/files/Guo_et_al_BMC_Oral_Health_2024.png
+  - title: "Impacts of Community-Based Rehabilitation on Healthcare Utilization and Costs Among People With Schizophrenia in China: A Cluster Randomized Controlled Trial"
+    authors: "Ding, R., Zhao, M., Xia, Y., <strong>Wang, Y.</strong>, Shi, Z., Hu, X., Ling, L. & He, P."
+    conference_short: "Schizophrenia Bulletin"
+    conference: "Schizophrenia Bulletin"
+    page: "https://doi.org/10.1093/schbul/sbag014"
     notes: Published
 
-  - title: Association of cognitive frailty with subsequent all-cause mortality among middle-aged and older adults in 17 countries. 
-    authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
-    conference_short: AJGP
-    conference: The American Journal of Geriatric Psychiatry
-    pdf: assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.pdf
-    page: https://www.sciencedirect.com/science/article/abs/pii/S1064748124004366
-    image: ./assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.png
+  - title: "Disease and Economic Burden of Intellectual Developmental Disability Attributable to Congenital Heart Disease, 1990–2021"
+    authors: "Lin, X., He, Q., Pei, X., <strong>Wang, Y.</strong>, Zhou, S., Chen, L., Ma, K., Dou, Z., Liu, Y., Ma, Y. & Li, S."
+    conference_short: "gh"
+    conference: "Global Heart"
+    page: "https://doi.org/10.5334/gh.1511"
     notes: Published
 
-  - title: Preferences and willingness to pay for herpes zoster vaccination among Chinese adults-A discrete choice experiment. 
-    authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
-    conference_short: JMIR
-    conference: JMIR Public Health and Surveillance
-    pdf: assets/files/Xia_et_al_2024_JMIR.pdf
-    page: https://publichealth.jmir.org/2024/1/e51242
-    image: ./assets/files/Xia_et_al_2024_JMIR.png
+  - title: "Preferences and Willingness to Pay for Herpes Zoster Vaccination Among Chinese Adults: Discrete Choice Experiment"
+    authors: "Xia, Y., Wang, M., Hu, M., <strong>Wang, Y.</strong>, Yuan, B., Zhu, D. & He, P."
+    conference_short: "JMIR Public Health Surveill"
+    conference: "JMIR Public Health and Surveillance"
+    page: "https://doi.org/10.2196/51242"
     notes: Published
 
-  - title: The Impact of Informal Care on Healthcare Utilization of Older Adults with Functional Limitations in China.
-    authors: Su, Q., <strong>Wang, Y.</strong>, & Fan, L.
-    conference_short: JoGSW
-    conference: Journal of Gerontological Social Work
-    pdf: assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.pdf
-    page: https://www.tandfonline.com/doi/full/10.1080/01634372.2024.2338061
-    image: ./assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.png
+  - title: "Association between toothbrushing behavior and cardiometabolic multimorbidity among middle aged and older adults in North China-a cross-section study"
+    authors: "Gyo, D., <strong>Wang, Y.</strong>, ... & He, P."
+    conference_short: "BMC"
+    conference: "BMC Oral Health"
+    page: "https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-024-05112-w"
+    pdf: "assets/files/Guo_et_al_BMC_Oral_Health_2024.pdf"
+    image: "./assets/files/Guo_et_al_BMC_Oral_Health_2024.png"
     notes: Published
 
-  - title: Medical service utilisation and direct medical cost of depression-a crosss-ectional analysis of urban medical claims data from China.
-    authors: Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P.
-    conference_short: BMJ Open
-    conference: BMJ Open
-    pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
-    page: https://bmjopen.bmj.com/content/12/9/e056422.abstract
-    image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
+  - title: "Association of cognitive frailty with subsequent all-cause mortality among middle-aged and older adults in 17 countries."
+    authors: "Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P."
+    conference_short: "AJGP"
+    conference: "The American Journal of Geriatric Psychiatry"
+    page: "https://www.sciencedirect.com/science/article/abs/pii/S1064748124004366"
+    pdf: "assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.pdf"
+    image: "./assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.png"
     notes: Published
 
-  - title: Willingness to vaccinate against herpes zoster in Chinese urban population-a mixed-methods study.
-    authors: Wang, M., Hu, M., <strong>Wang, Y.</strong>, Long, C., Xia, Y., Zhu, D., ... & He, P. 
-    conference_short: BMJ Open
-    conference: BMJ Open
-    pdf: assets/files/Wang_et_al_2023_BMJ_Open.pdf
-    page: https://bmjopen.bmj.com/content/13/12/e079115.long
-    image: ./assets/files/Wang_et_al_2023_BMJ_Open.png
+  - title: "Preferences and willingness to pay for herpes zoster vaccination among Chinese adults-A discrete choice experiment."
+    authors: "Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P."
+    conference_short: "JMIR"
+    conference: "JMIR Public Health and Surveillance"
+    page: "https://publichealth.jmir.org/2024/1/e51242"
+    pdf: "assets/files/Xia_et_al_2024_JMIR.pdf"
+    image: "./assets/files/Xia_et_al_2024_JMIR.png"
     notes: Published
 
-  - title: Effects of retirement on inpatient healthcare utilisation-an observational study in China.
-    authors: Ye, X., Li, W., <strong>Wang, Y.</strong>, Hu, M., Zhu, D., Shi, X., & He, P. (2024). 
-    conference_short: BMJ Open
-    conference: BMJ Open
-    pdf: assets/files/Ye_et_al_2024_BMJ_Open.pdf
-    page: https://bmjopen.bmj.com/content/14/1/e077969.abstract
-    image: ./assets/files/Ye_et_al_2024_BMJ_Open.png
+  - title: "The Impact of Informal Care on Healthcare Utilization of Older Adults with Functional Limitations in China."
+    authors: "Su, Q., <strong>Wang, Y.</strong>, & Fan, L."
+    conference_short: "JoGSW"
+    conference: "Journal of Gerontological Social Work"
+    page: "https://www.tandfonline.com/doi/full/10.1080/01634372.2024.2338061"
+    pdf: "assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.pdf"
+    image: "./assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.png"
     notes: Published
 
-  - title: Association of urban-rural health insurance integration with health outcomes among middle-aged and older adults in rural China.
-    authors: Ye, X., & <strong>Wang, Y.</strong>
-    conference_short: JAMA Network Open
-    conference: JAMA Network Open
-    pdf: assets/files/Ye_Wang_2023_JAMA_Network_Open.pdf
-    page: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2803032
-    image: ./assets/files/Ye_Wang_2023_JAMA_Network_Open.png
+  - title: "Medical service utilisation and direct medical cost of depression-a crosss-ectional analysis of urban medical claims data from China."
+    authors: "Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P."
+    conference_short: "BMJ Open"
+    conference: "BMJ Open"
+    page: "https://bmjopen.bmj.com/content/12/9/e056422.abstract"
+    pdf: "assets/files/Ding_et_al_2022_BMJ_Open.pdf"
+    image: "./assets/files/Ding_et_al_2022_BMJ_Open.png"
     notes: Published
 
-  - title: Data envelopment analysis on the efficiency of vaccination services and its influencing factors in Beijing, China.
-    authors: Hu, M., <strong>Wang, Y.</strong>, Wang, M., Zhu, D., Li, W., Yu, R., ... & He, P. 
-    conference_short: BMC HSR
-    conference: BMC Health Services Research
-    pdf: assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.pdf
-    page: https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-023-09758-0
-    image: ./assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.png
+  - title: "Willingness to vaccinate against herpes zoster in Chinese urban population-a mixed-methods study."
+    authors: "Wang, M., Hu, M., <strong>Wang, Y.</strong>, Long, C., Xia, Y., Zhu, D., ... & He, P."
+    conference_short: "BMJ Open"
+    conference: "BMJ Open"
+    page: "https://bmjopen.bmj.com/content/13/12/e079115.long"
+    pdf: "assets/files/Wang_et_al_2023_BMJ_Open.pdf"
+    image: "./assets/files/Wang_et_al_2023_BMJ_Open.png"
     notes: Published
 
-  - title: Antidepressant Use and Expenditure in The Treatment of Patients with Depression-Evidence from China Urban Medical Claims Data.
-    authors: Ding, R., <strong>Wang, Y.</strong>, Ye, X., Zhu, D., Shi, X., & He, P.  
-    conference_short: JAD
-    conference: Journal of Affective Disorders
-    pdf: assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.pdf
-    page: https://www.sciencedirect.com/science/article/abs/pii/S0165032721010788
-    image: ./assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.png
+  - title: "Effects of retirement on inpatient healthcare utilisation-an observational study in China."
+    authors: "Ye, X., Li, W., <strong>Wang, Y.</strong>, Hu, M., Zhu, D., Shi, X., & He, P. (2024)."
+    conference_short: "BMJ Open"
+    conference: "BMJ Open"
+    page: "https://bmjopen.bmj.com/content/14/1/e077969.abstract"
+    pdf: "assets/files/Ye_et_al_2024_BMJ_Open.pdf"
+    image: "./assets/files/Ye_et_al_2024_BMJ_Open.png"
     notes: Published
 
-  - title: Community-based rehabilitation interventions on quality of care for people with schizophrenia in China (CRISC)-study protocol for a cluster-randomized controlled trial.
-    authors: Ding, R., Zhao, M., <strong>Wang, Y.</strong>, Wang, M., Guo, D., Liu, X., ... & He, P.  
-    conference_short: BMC psychiatry
-    conference: BMC psychiatry
-    pdf: assets/files/Ding_et_al_2023_BMC_Psychiatry.pdf
-    page: https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04774-0
-    image: ./assets/files/Ding_et_al_2023_BMC_Psychiatry.png
+  - title: "Association of urban-rural health insurance integration with health outcomes among middle-aged and older adults in rural China."
+    authors: "Ye, X., & <strong>Wang, Y.</strong>"
+    conference_short: "JAMA Network Open"
+    conference: "JAMA Network Open"
+    page: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2803032"
+    pdf: "assets/files/Ye_Wang_2023_JAMA_Network_Open.pdf"
+    image: "./assets/files/Ye_Wang_2023_JAMA_Network_Open.png"
     notes: Published
 
-  - title: Effectiveness of Community Based Rehabilitation Interventions on Symptoms and Functioning for People with Schizophrenia-A Systematic Review and Meta-Analysis.
-    authors: Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P.   
-    conference_short: Psychiatr Q
-    conference: Psychiatric Quarterly
-    pdf: assets/files/Ye_et_al_2023_Psychiatr_Q.pdf
-    page: https://link.springer.com/article/10.1007/s11126-023-10029-8
-    image: ./assets/files/Ye_et_al_2023_Psychiatr_Q.png
+  - title: "Data envelopment analysis on the efficiency of vaccination services and its influencing factors in Beijing, China."
+    authors: "Hu, M., <strong>Wang, Y.</strong>, Wang, M., Zhu, D., Li, W., Yu, R., ... & He, P."
+    conference_short: "BMC HSR"
+    conference: "BMC Health Services Research"
+    page: "https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-023-09758-0"
+    pdf: "assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.pdf"
+    image: "./assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.png"
     notes: Published
 
-  - title: Impacts of the Hearing Aid Intervention on Healthcare Utilization and Costs Among Middle-Aged and Older Adults-Results from A Randomized Controlled Trial in Rural China.
-    authors: Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P.   
-    conference_short: The Lancet Regional Health
-    conference: The Lancet Regional Health-Western Pacific
-    pdf: assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.pdf
-    page: https://www.sciencedirect.com/science/article/pii/S2666606522002097
-    image: ./assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.png
+  - title: "Antidepressant Use and Expenditure in The Treatment of Patients with Depression-Evidence from China Urban Medical Claims Data."
+    authors: "Ding, R., <strong>Wang, Y.</strong>, Ye, X., Zhu, D., Shi, X., & He, P."
+    conference_short: "JAD"
+    conference: "Journal of Affective Disorders"
+    page: "https://www.sciencedirect.com/science/article/abs/pii/S0165032721010788"
+    pdf: "assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.pdf"
+    image: "./assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.png"
     notes: Published
 
-  - title: Medical Service Utilisation and Direct Medical Cost of Depression-A Cross-Sectional Analysis of Urban Medical Claims Data from China. 
-    authors: Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P.    
-    conference_short: BMJ open
-    conference: BMJ open
-    pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
-    page: https://bmjopen.bmj.com/content/12/9/e056422.long
-    image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
+  - title: "Community-based rehabilitation interventions on quality of care for people with schizophrenia in China (CRISC)-study protocol for a cluster-randomized controlled trial."
+    authors: "Ding, R., Zhao, M., <strong>Wang, Y.</strong>, Wang, M., Guo, D., Liu, X., ... & He, P."
+    conference_short: "BMC psychiatry"
+    conference: "BMC psychiatry"
+    page: "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04774-0"
+    pdf: "assets/files/Ding_et_al_2023_BMC_Psychiatry.pdf"
+    image: "./assets/files/Ding_et_al_2023_BMC_Psychiatry.png"
     notes: Published
 
-  - title: Does self-perceived income priority matter? The association between income inequality and allostatic load in China. 
-    authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, Zhu, D., & He, P.    
-    conference_short: Stress
-    conference: Stress
-    pdf: assets/files/Ding_et_al_2022_Stress.pdf
-    page: https://www.tandfonline.com/doi/full/10.1080/10253890.2021.1999407
-    image: ./assets/files/Ding_et_al_2022_Stress.png
+  - title: "Effectiveness of Community Based Rehabilitation Interventions on Symptoms and Functioning for People with Schizophrenia-A Systematic Review and Meta-Analysis."
+    authors: "Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P."
+    conference_short: "Psychiatr Q"
+    conference: "Psychiatric Quarterly"
+    page: "https://link.springer.com/article/10.1007/s11126-023-10029-8"
+    pdf: "assets/files/Ye_et_al_2023_Psychiatr_Q.pdf"
+    image: "./assets/files/Ye_et_al_2023_Psychiatr_Q.png"
     notes: Published
 
+  - title: "Impacts of the Hearing Aid Intervention on Healthcare Utilization and Costs Among Middle-Aged and Older Adults-Results from A Randomized Controlled Trial in Rural China."
+    authors: "Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P."
+    conference_short: "The Lancet Regional Health"
+    conference: "The Lancet Regional Health-Western Pacific"
+    page: "https://www.sciencedirect.com/science/article/pii/S2666606522002097"
+    pdf: "assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.pdf"
+    image: "./assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.png"
+    notes: Published
+
+  - title: "Medical Service Utilisation and Direct Medical Cost of Depression-A Cross-Sectional Analysis of Urban Medical Claims Data from China."
+    authors: "Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P."
+    conference_short: "BMJ open"
+    conference: "BMJ open"
+    page: "https://bmjopen.bmj.com/content/12/9/e056422.long"
+    pdf: "assets/files/Ding_et_al_2022_BMJ_Open.pdf"
+    image: "./assets/files/Ding_et_al_2022_BMJ_Open.png"
+    notes: Published
+
+  - title: "Does self-perceived income priority matter? The association between income inequality and allostatic load in China."
+    authors: "Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, Zhu, D., & He, P."
+    conference_short: "Stress"
+    conference: "Stress"
+    page: "https://www.tandfonline.com/doi/full/10.1080/10253890.2021.1999407"
+    pdf: "assets/files/Ding_et_al_2022_Stress.pdf"
+    image: "./assets/files/Ding_et_al_2022_Stress.png"
+    notes: Published
