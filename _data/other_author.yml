@@ -3,6 +3,7 @@ main:
     authors: Gyo, D., <strong>Wang, Y.</strong>, ... & He, P.
     conference_short: BMC
     conference: BMC Oral Health
+    year: "2024"
     pdf: assets/files/Guo_et_al_BMC_Oral_Health_2024.pdf
     page: https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-024-05112-w
     image: ./assets/files/Guo_et_al_BMC_Oral_Health_2024.png
@@ -12,6 +13,7 @@ main:
     authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
     conference_short: AJGP
     conference: The American Journal of Geriatric Psychiatry
+    year: "2024"
     pdf: assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.pdf
     page: https://www.sciencedirect.com/science/article/abs/pii/S1064748124004366
     image: ./assets/files/Yuan_et_al_2024_The_American_Journal_of_Geriatric_Psychiatry.png
@@ -21,6 +23,7 @@ main:
     authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, ... & He, P.
     conference_short: JMIR
     conference: JMIR Public Health and Surveillance
+    year: "2024"
     pdf: assets/files/Xia_et_al_2024_JMIR.pdf
     page: https://publichealth.jmir.org/2024/1/e51242
     image: ./assets/files/Xia_et_al_2024_JMIR.png
@@ -30,6 +33,7 @@ main:
     authors: Su, Q., <strong>Wang, Y.</strong>, & Fan, L.
     conference_short: JoGSW
     conference: Journal of Gerontological Social Work
+    year: "2024"
     pdf: assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.pdf
     page: https://www.tandfonline.com/doi/full/10.1080/01634372.2024.2338061
     image: ./assets/files/Su_et_al_Journal_of_Gerontological_Social_Work.png
@@ -39,6 +43,7 @@ main:
     authors: Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P.
     conference_short: BMJ Open
     conference: BMJ Open
+    year: "2022"
     pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/12/9/e056422.abstract
     image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
@@ -48,6 +53,7 @@ main:
     authors: Wang, M., Hu, M., <strong>Wang, Y.</strong>, Long, C., Xia, Y., Zhu, D., ... & He, P. 
     conference_short: BMJ Open
     conference: BMJ Open
+    year: "2023"
     pdf: assets/files/Wang_et_al_2023_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/13/12/e079115.long
     image: ./assets/files/Wang_et_al_2023_BMJ_Open.png
@@ -57,6 +63,7 @@ main:
     authors: Ye, X., Li, W., <strong>Wang, Y.</strong>, Hu, M., Zhu, D., Shi, X., & He, P. (2024). 
     conference_short: BMJ Open
     conference: BMJ Open
+    year: "2024"
     pdf: assets/files/Ye_et_al_2024_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/14/1/e077969.abstract
     image: ./assets/files/Ye_et_al_2024_BMJ_Open.png
@@ -66,6 +73,7 @@ main:
     authors: Ye, X., & <strong>Wang, Y.</strong>
     conference_short: JAMA Network Open
     conference: JAMA Network Open
+    year: "2023"
     pdf: assets/files/Ye_Wang_2023_JAMA_Network_Open.pdf
     page: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2803032
     image: ./assets/files/Ye_Wang_2023_JAMA_Network_Open.png
@@ -75,6 +83,7 @@ main:
     authors: Hu, M., <strong>Wang, Y.</strong>, Wang, M., Zhu, D., Li, W., Yu, R., ... & He, P. 
     conference_short: BMC HSR
     conference: BMC Health Services Research
+    year: "2023"
     pdf: assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.pdf
     page: https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-023-09758-0
     image: ./assets/files/Hu_et_al_2023_BMC_Health_Serv_Res.png
@@ -84,6 +93,7 @@ main:
     authors: Ding, R., <strong>Wang, Y.</strong>, Ye, X., Zhu, D., Shi, X., & He, P.  
     conference_short: JAD
     conference: Journal of Affective Disorders
+    year: "2022"
     pdf: assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.pdf
     page: https://www.sciencedirect.com/science/article/abs/pii/S0165032721010788
     image: ./assets/files/Ding_et_al_2022_Journal_of_Affective_Disorders.png
@@ -93,6 +103,7 @@ main:
     authors: Ding, R., Zhao, M., <strong>Wang, Y.</strong>, Wang, M., Guo, D., Liu, X., ... & He, P.  
     conference_short: BMC psychiatry
     conference: BMC psychiatry
+    year: "2023"
     pdf: assets/files/Ding_et_al_2023_BMC_Psychiatry.pdf
     page: https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04774-0
     image: ./assets/files/Ding_et_al_2023_BMC_Psychiatry.png
@@ -102,6 +113,7 @@ main:
     authors: Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P.   
     conference_short: Psychiatr Q
     conference: Psychiatric Quarterly
+    year: "2023"
     pdf: assets/files/Ye_et_al_2023_Psychiatr_Q.pdf
     page: https://link.springer.com/article/10.1007/s11126-023-10029-8
     image: ./assets/files/Ye_et_al_2023_Psychiatr_Q.png
@@ -111,6 +123,7 @@ main:
     authors: Ye, X., Zeng, F., <strong>Wang, Y.</strong>, Ding, R., Zhao, M., Zhu, D., & He, P.   
     conference_short: The Lancet Regional Health
     conference: The Lancet Regional Health-Western Pacific
+    year: "2022"
     pdf: assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.pdf
     page: https://www.sciencedirect.com/science/article/pii/S2666606522002097
     image: ./assets/files/Ye_et_al_2023_The_Lancet_Regional_Health.png
@@ -120,6 +133,7 @@ main:
     authors: Ding, R., Zhu, D., <strong>Wang, Y.</strong>, Yong, M., Shi, X., & He, P.    
     conference_short: BMJ open
     conference: BMJ open
+    year: "2022"
     pdf: assets/files/Ding_et_al_2022_BMJ_Open.pdf
     page: https://bmjopen.bmj.com/content/12/9/e056422.long
     image: ./assets/files/Ding_et_al_2022_BMJ_Open.png
@@ -129,6 +143,7 @@ main:
     authors: Ding, R., Ye, X., Chen, S., <strong>Wang, Y.</strong>, Zhu, D., & He, P.    
     conference_short: Stress
     conference: Stress
+    year: "2022"
     pdf: assets/files/Ding_et_al_2022_Stress.pdf
     page: https://www.tandfonline.com/doi/full/10.1080/10253890.2021.1999407
     image: ./assets/files/Ding_et_al_2022_Stress.png
