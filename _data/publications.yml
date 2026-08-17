@@ -3,6 +3,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Guo, D., Xia, Y., Shi, Z., Zhu, D. & He, P."
     conference_short: "American Journal of Epidemiology"
     conference: "American Journal of Epidemiology"
+    year: "2026"
     page: "https://doi.org/10.1093/aje/kwag175"
     notes: Published
 
@@ -10,6 +11,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Cai, C., Shi, Z., Gao, Q., Bottle, A., Sharabiani, M. T. A., Stott, J., Hayhoe, B., & He, P."
     conference_short: "PLoS Med"
     conference: "PLOS Medicine"
+    year: "2026"
     page: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005087"
     notes: Published
 
@@ -17,6 +19,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Xia, Y., Yuan, Y., Luo, Y., Shi, Z., Cui, C., Si, H. & He, P."
     conference_short: "JAHA"
     conference: "Journal of the American Heart Association"
+    year: "2025"
     page: "https://www.ahajournals.org/doi/full/10.1161/JAHA.124.038339"
     notes: Published
 
@@ -24,6 +27,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Guo, D. & He, P."
     conference_short: "NC"
     conference: "Nature Communications"
+    year: "2025"
     page: "https://www.nature.com/articles/s41467-025-58120-x"
     notes: Published
 
@@ -31,6 +35,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Guo, D. & He, P."
     conference_short: "DC"
     conference: "Diabetes Care"
+    year: "2025"
     page: "https://diabetesjournals.org/care/article/doi/10.2337/dc24-1593/157603/Effect-of-Community-Based-Integrated-Care-for"
     notes: Published
 
@@ -38,6 +43,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Wang, X. & Ye, X."
     conference_short: "JASP"
     conference: "Journal of Aging & Social Policy"
+    year: "2024"
     page: "https://www.tandfonline.com/doi/full/10.1080/08959420.2024.2422674"
     notes: Published
 
@@ -45,6 +51,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, & He, P."
     conference_short: "Depression and Anxiety"
     conference: "Depression and Anxiety"
+    year: "2024"
     page: "https://onlinelibrary.wiley.com/doi/full/10.1155/2024/4110906"
     notes: Published
 
@@ -52,6 +59,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Ding, R., Luo, Y., He, P., & Zheng, X."
     conference_short: "Schizophrenia Research"
     conference: "Schizophrenia Research"
+    year: "2024"
     page: "https://www.sciencedirect.com/science/article/pii/S0920996424000343"
     notes: Published
 
@@ -59,6 +67,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Guo, D., Wang, M., Hu, M., Zhu, D., Yu, Q., ... & He, P."
     conference_short: "Trials"
     conference: "Trials"
+    year: "2023"
     page: "https://link.springer.com/article/10.1186/s13063-023-07561-0"
     notes: Published
 
@@ -66,6 +75,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Hu, M., Ding, R., & He, P."
     conference_short: "BJHP"
     conference: "British Journal of Health Psychology"
+    year: "2023"
     page: "https://bpspsychub.onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12608?casa_token=YNQmH6VZjoQAAAAA%3A7oxP8diC6qjVNZ2SfLs3Fq9iqE8268T033KUiLUDU-iFDhPU1KremAQYV5fXVr6ZorWNxJln30qjJxXO"
     notes: Published
 
@@ -73,6 +83,7 @@ main:
     authors: "<strong>Wang, Y.</strong>, Hu, M., Zhu, D., Ding, R., & He, P."
     conference_short: "Int J Integr Care"
     conference: "International Journal of Integrated Care"
+    year: "2022"
     page: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9438466/"
     notes: Published
 
@@ -80,5 +91,6 @@ main:
     authors: "<strong>Wang, Y.</strong>, Sun, H., Zou, J., Ning, J., & Du, Y."
     conference_short: "DMPHP"
     conference: "Disaster Medicine and Public Health Preparedness"
+    year: "2021"
     page: "https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/evaluation-model-for-hospital-response-capability-for-public-health-emergency/62F04C65FF7536F528A1BF0D3402038E"
     notes: Published
