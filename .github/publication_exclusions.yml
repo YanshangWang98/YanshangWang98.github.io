@@ -1,0 +1,9 @@
+# Publication candidates that should not be suggested again.
+# Use the canonical DOI. Add a reason and date for your own record keeping.
+#
+# Example:
+# - doi: "10.1234/example.doi"
+#   reason: "Same-name author; not my paper"
+#   added: "2026-08-17"
+
+excluded:
