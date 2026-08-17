@@ -24,6 +24,7 @@ CROSSREF_MAILTO = os.environ.get(
 ROOT = Path(__file__).resolve().parents[1]
 MAIN_DATA_FILE = ROOT / "_data" / "publications.yml"
 OTHER_DATA_FILE = ROOT / "_data" / "other_author.yml"
+EXCLUSIONS_FILE = ROOT / ".github" / "publication_exclusions.yml"
 BLOCK_RE = re.compile(r"(?ms)^  - title:.*?(?=^  - title:|\Z)")
 
 
@@ -65,6 +66,20 @@ def parse_existing(text: str) -> list[dict[str, str]]:
         if record.get("notes") == "Published" and record.get("title"):
             records.append(record)
     return records
+
+
+
+def parse_excluded_dois(text: str) -> set[str]:
+    """Return canonical DOIs that should never be suggested again."""
+    excluded: set[str] = set()
+    for line in text.splitlines():
+        match = re.match(r"^\s*-\s*doi:\s*(.+?)\s*$", line)
+        if not match:
+            continue
+        doi = extract_doi(yaml_value(match.group(1)))
+        if doi:
+            excluded.add(doi.lower())
+    return excluded
 
 
 def normalize_title(title: str) -> str:
@@ -249,14 +264,21 @@ def main() -> None:
         OTHER_DATA_FILE.read_text(encoding="utf-8")
     )
     existing = existing_main + existing_other
+    exclusion_text = EXCLUSIONS_FILE.read_text(encoding="utf-8") if EXCLUSIONS_FILE.exists() else ""
+    excluded_dois = parse_excluded_dois(exclusion_text)
     seen = {record_key(record) for record in existing}
     seen_titles = {normalize_title(record.get("title", "")) for record in existing}
 
     discovered_main: list[dict[str, Any]] = []
     discovered_other: list[dict[str, Any]] = []
+    excluded_count = 0
     for item in fetch_crossref_items():
         record = crossref_record(item)
         if not record:
+            continue
+        doi_key = extract_doi(record.get("_doi", "")).lower()
+        if doi_key in excluded_dois:
+            excluded_count += 1
             continue
         key = record_key(record)
         title_key = normalize_title(record.get("title", ""))
@@ -297,7 +319,8 @@ def main() -> None:
         f"Crossref returned {len(existing)} published records; "
         f"added {len(discovered)} new records "
         f"({len(discovered_main)} first-author, "
-        f"{len(discovered_other)} other-author)."
+        f"{len(discovered_other)} other-author); "
+        f"skipped {excluded_count} excluded DOI(s)."
     )
 
 
