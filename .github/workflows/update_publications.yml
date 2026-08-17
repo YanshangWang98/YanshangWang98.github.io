@@ -44,6 +44,7 @@ jobs:
           commit-message: "Add publication candidates for review"
           body: |
             The weekly Crossref scan found new publication candidates.
+            Candidates are classified as First or Corresponding Author or Other Author.
             Please confirm that each item belongs to Yanshang Wang before merging.
             The website will only change after this pull request is reviewed and merged.
 

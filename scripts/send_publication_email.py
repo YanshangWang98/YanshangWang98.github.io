@@ -17,6 +17,14 @@ def plain_authors(value: str) -> str:
     return re.sub(r"<[^>]+>", "", value or "")
 
 
+def author_category(value: str) -> str:
+    return (
+        "First or Corresponding Author"
+        if value == "main"
+        else "Other Author"
+    )
+
+
 def main() -> None:
     report_file = Path(
         os.environ.get("PUBLICATION_REPORT_FILE", "publication-candidates.json")
@@ -55,11 +63,13 @@ def main() -> None:
         journal = candidate.get("conference", "")
         year = candidate.get("_year") or "Year not available"
         page = candidate.get("page", "")
+        category = author_category(candidate.get("_category", "main"))
         lines.extend(
             [
                 f"{index}. {title}",
                 f"   Authors: {authors}",
                 f"   Journal: {journal} ({year})",
+                f"   Category: {category}",
                 f"   Article: {page}",
                 "",
             ]
@@ -69,6 +79,7 @@ def main() -> None:
             f"<strong>{escape(title)}</strong><br>"
             f"Authors: {escape(authors)}<br>"
             f"Journal: {escape(journal)} ({escape(str(year))})<br>"
+            f"Category: {escape(category)}<br>"
             f'<a href="{escape(page)}">View article</a>'
             "</li>"
         )

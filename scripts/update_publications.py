@@ -22,7 +22,8 @@ CROSSREF_MAILTO = os.environ.get(
     "CROSSREF_MAILTO", "wangyanshang98@gmail.com"
 )
 ROOT = Path(__file__).resolve().parents[1]
-DATA_FILE = ROOT / "_data" / "publications.yml"
+MAIN_DATA_FILE = ROOT / "_data" / "publications.yml"
+OTHER_DATA_FILE = ROOT / "_data" / "other_author.yml"
 BLOCK_RE = re.compile(r"(?ms)^  - title:.*?(?=^  - title:|\Z)")
 
 
@@ -53,6 +54,8 @@ def parse_existing(text: str) -> list[dict[str, str]]:
             "conference",
             "page",
             "notes",
+            "pdf",
+            "image",
         ):
             match = re.search(
                 rf"(?m)^\s*(?:-\s*)?{re.escape(key)}:\s*(.*)$", block
@@ -170,6 +173,14 @@ def crossref_record(item: dict[str, Any]) -> dict[str, Any] | None:
     title = first(item.get("title"))
     journal = first(item.get("container-title"))
     raw_authors = item.get("author") or []
+    user_author_index = next(
+        (
+            index
+            for index, author in enumerate(raw_authors)
+            if is_user_author(author)
+        ),
+        None,
+    )
     if (
         re.search(
             r"\b(correction|erratum|retraction|corrigendum|expression of concern)\b",
@@ -177,7 +188,7 @@ def crossref_record(item: dict[str, Any]) -> dict[str, Any] | None:
             flags=re.I,
         )
         or not raw_authors
-        or not is_user_author(raw_authors[0])
+        or user_author_index is None
     ):
         return None
 
@@ -189,6 +200,7 @@ def crossref_record(item: dict[str, Any]) -> dict[str, Any] | None:
     return {
         "_doi": doi.lower(),
         "_year": publication_year(item),
+        "_category": "main" if user_author_index == 0 else "other",
         "title": title,
         "authors": authors,
         "conference_short": short_journal,
@@ -213,6 +225,10 @@ def render(records: list[dict[str, str]]) -> str:
             )
         lines.append(f"    conference: {quote(record['conference'])}")
         lines.append(f"    page: {quote(record['page'])}")
+        if record.get("pdf"):
+            lines.append(f"    pdf: {quote(record['pdf'])}")
+        if record.get("image"):
+            lines.append(f"    image: {quote(record['image'])}")
         lines.append("    notes: Published")
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
@@ -226,12 +242,18 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    current = DATA_FILE.read_text(encoding="utf-8")
-    existing = parse_existing(current)
+    existing_main = parse_existing(
+        MAIN_DATA_FILE.read_text(encoding="utf-8")
+    )
+    existing_other = parse_existing(
+        OTHER_DATA_FILE.read_text(encoding="utf-8")
+    )
+    existing = existing_main + existing_other
     seen = {record_key(record) for record in existing}
     seen_titles = {normalize_title(record.get("title", "")) for record in existing}
 
-    discovered: list[dict[str, Any]] = []
+    discovered_main: list[dict[str, Any]] = []
+    discovered_other: list[dict[str, Any]] = []
     for item in fetch_crossref_items():
         record = crossref_record(item)
         if not record:
@@ -242,14 +264,27 @@ def main() -> None:
             continue
         seen.add(key)
         seen_titles.add(title_key)
-        discovered.append(record)
+        if record.get("_category") == "main":
+            discovered_main.append(record)
+        else:
+            discovered_other.append(record)
 
-    discovered.sort(
-        key=lambda record: (record.get("_year", 0), record["title"].lower()),
-        reverse=True,
+    sort_key = lambda record: (
+        record.get("_year", 0),
+        record["title"].lower(),
     )
-    output_records = discovered + existing
-    DATA_FILE.write_text(render(output_records), encoding="utf-8")
+    discovered_main.sort(key=sort_key, reverse=True)
+    discovered_other.sort(key=sort_key, reverse=True)
+    discovered = discovered_main + discovered_other
+
+    MAIN_DATA_FILE.write_text(
+        render(discovered_main + existing_main),
+        encoding="utf-8",
+    )
+    OTHER_DATA_FILE.write_text(
+        render(discovered_other + existing_other),
+        encoding="utf-8",
+    )
     if args.report_file:
         report_path = Path(args.report_file)
         report_path.parent.mkdir(parents=True, exist_ok=True)
@@ -259,8 +294,10 @@ def main() -> None:
         )
 
     print(
-        f"Crossref returned {len(existing) + len(discovered)} published records; "
-        f"added {len(discovered)} new records."
+        f"Crossref returned {len(existing)} published records; "
+        f"added {len(discovered)} new records "
+        f"({len(discovered_main)} first-author, "
+        f"{len(discovered_other)} other-author)."
     )
 
 
