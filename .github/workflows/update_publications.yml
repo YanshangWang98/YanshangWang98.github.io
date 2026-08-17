@@ -46,6 +46,8 @@ jobs:
             The weekly Crossref scan found new publication candidates.
             Candidates are classified as First or Corresponding Author or Other Author.
             Please confirm that each item belongs to Yanshang Wang before merging.
+            For a rejected item, remove it from the publication data file and add its DOI to
+            .github/publication_exclusions.yml. Excluded DOIs will be skipped in future scans.
             The website will only change after this pull request is reviewed and merged.
 
       - name: Check Gmail configuration
