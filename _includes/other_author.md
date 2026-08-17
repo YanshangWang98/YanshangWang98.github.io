@@ -18,6 +18,9 @@
           {% if link.conference %}
           <span class="publication-venue">{{ link.conference }}</span>
           {% endif %}
+          {% if link.year %}
+          <span class="publication-year">{{ link.year }}</span>
+          {% endif %}
           {% if link.notes %}
           <span class="publication-status">{{ link.notes }}</span>
           {% endif %}
