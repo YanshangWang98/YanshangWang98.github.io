@@ -3,6 +3,7 @@ main:
     authors: "Ding, R., Zhao, M., Xia, Y., <strong>Wang, Y.</strong>, Shi, Z., Hu, X., Ling, L. & He, P."
     conference_short: "Schizophrenia Bulletin"
     conference: "Schizophrenia Bulletin"
+    year: "2026"
     page: "https://doi.org/10.1093/schbul/sbag014"
     notes: Published
 
@@ -17,6 +18,7 @@ main:
     authors: "Xia, Y., Wang, M., Hu, M., <strong>Wang, Y.</strong>, Yuan, B., Zhu, D. & He, P."
     conference_short: "JMIR Public Health Surveill"
     conference: "JMIR Public Health and Surveillance"
+    year: "2024"
     page: "https://doi.org/10.2196/51242"
     notes: Published
 
