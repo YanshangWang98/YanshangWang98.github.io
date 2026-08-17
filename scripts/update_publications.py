@@ -53,6 +53,7 @@ def parse_existing(text: str) -> list[dict[str, str]]:
             "authors",
             "conference_short",
             "conference",
+            "year",
             "page",
             "notes",
             "pdf",
@@ -215,6 +216,7 @@ def crossref_record(item: dict[str, Any]) -> dict[str, Any] | None:
     return {
         "_doi": doi.lower(),
         "_year": publication_year(item),
+        "year": str(publication_year(item)) if publication_year(item) else "",
         "_category": "main" if user_author_index == 0 else "other",
         "title": title,
         "authors": authors,
@@ -239,6 +241,8 @@ def render(records: list[dict[str, str]]) -> str:
                 f"    conference_short: {quote(record['conference_short'])}"
             )
         lines.append(f"    conference: {quote(record['conference'])}")
+        if record.get("year"):
+            lines.append(f"    year: {quote(record['year'])}")
         lines.append(f"    page: {quote(record['page'])}")
         if record.get("pdf"):
             lines.append(f"    pdf: {quote(record['pdf'])}")
