@@ -1,4 +1,12 @@
 main:
+  - title: "The effect of number of children on loneliness: a nationally-representative instrumental-variable study in India"
+    authors: "<strong>Wang, Y.</strong>, Yang, F., Wayal, S., Bakht, S., Sujata, S., Kern, M., Singh, A. & Bäernighausen, T."
+    conference_short: "BMC Med"
+    conference: "BMC Medicine"
+    year: "2026"
+    page: "https://doi.org/10.1186/s12916-026-05232-w"
+    notes: Published
+
   - title: "Effects of the integrated care on healthcare utilization and costs among patients with diabetes and depression: a cluster randomized controlled trial"
     authors: "<strong>Wang, Y.</strong>, Guo, D., Xia, Y., Shi, Z., Zhu, D. & He, P."
     conference_short: "American Journal of Epidemiology"
