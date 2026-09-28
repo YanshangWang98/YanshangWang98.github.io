@@ -1,4 +1,12 @@
 main:
+  - title: "Health behavior buffering the spillover effect of cancer on spousal depressive symptoms: causal evidence from a multicountry analysis"
+    authors: "<strong>Wang, Y.</strong>, Xia, Y., Cai, C., Shi, Z. & He, P."
+    conference_short: "International Journal of Epidemiology"
+    conference: "International Journal of Epidemiology"
+    year: "2026"
+    page: "https://doi.org/10.1093/ije/dyag209"
+    notes: Published
+
   - title: "The effect of number of children on loneliness: a nationally-representative instrumental-variable study in India"
     authors: "<strong>Wang, Y.</strong>, Yang, F., Wayal, S., Bakht, S., Sujata, S., Kern, M., Singh, A. & Bäernighausen, T."
     conference_short: "BMC Med"
